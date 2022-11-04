@@ -11,6 +11,12 @@ body {
     color: black;
 }
 
+.header {
+    height: 75px;
+    width: 100%;
+    clear: both; 
+}
+
 /* headings and logo */
 h1, h2 {
     font-family: Montserrat, sans-serif;
@@ -47,4 +53,11 @@ nav a:hover {
 
 #logo, nav {
     line-height: 75px;
+}
+
+/* main image */
+#main-image {
+    height: 600px;
+    width: 100%;
+    background: url(../images/main-image.webp) no-repeat center center;
 }
