@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@300&display=swap');
 
+:root {
+    --amber-yellow: rgb(255, 191, 0)
+}
+
 * {
     margin: 0;
     padding: 0;
     border: none;
+    box-sizing: border-box;
 }
 
 body {
@@ -44,11 +49,11 @@ nav a {
 }
 
 nav a:hover {
-    text-decoration: underline wavy 2px rgb(255, 191, 0);
+    text-decoration: underline wavy 2px var(--amber-yellow);
 }
 
 .active {
-    text-decoration: underline wavy 2.5px rgb(255, 191, 0);
+    text-decoration: underline wavy 2.5px var(--amber-yellow);
 }
 
 #logo, nav {
@@ -60,4 +65,11 @@ nav a:hover {
     height: 600px;
     width: 100%;
     background: url(../images/main-image.webp) no-repeat center center;
+}
+
+/* footer */
+footer {
+    height: 75px;
+    width: 100%;
+    background-color: var(--amber-yellow);
 }
