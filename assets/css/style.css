@@ -26,6 +26,7 @@ h1, h2 {
 /* navigation */
 nav {
     float: right;
+    margin-right: 15px;
     font-size: 100%;
 }
 
@@ -33,7 +34,15 @@ nav a {
     text-decoration: none;
     text-transform: capitalize;
     color:black;
-    margin-right: 10px;
+    margin-right: 15px;
+}
+
+nav a:hover {
+    text-decoration: underline wavy 2px rgb(255, 191, 0);
+}
+
+.active {
+    text-decoration: underline wavy 2.5px rgb(255, 191, 0);
 }
 
 #logo, nav {
