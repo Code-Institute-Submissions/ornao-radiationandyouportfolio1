@@ -11,15 +11,21 @@ body {
     color: black;
 }
 
-/* headings */
+/* headings and logo */
 h1, h2 {
     font-family: Montserrat, sans-serif;
     color: black;
 }
 
+#logo {
+    float: left;
+    margin-left: 10px;
+}
+
 /* navigation */
 nav {
     float: right;
+    font-size: 100%;
 }
 
 nav a {
@@ -27,4 +33,8 @@ nav a {
     text-transform: capitalize;
     color:black;
     margin-right: 10px;
+}
+
+#logo, nav {
+    line-height: 75px;
 }
