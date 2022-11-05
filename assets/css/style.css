@@ -88,6 +88,12 @@ nav a:hover {
     height: 600px;
 }
 
+.radiation div p {
+    margin: 5px;
+    padding: 20px;
+    text-align: justify;
+}
+
 #sun {
     float: left;
     width: 33%;
