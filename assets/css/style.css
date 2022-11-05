@@ -80,7 +80,6 @@ nav a:hover {
 /* radiation section */
 .radiation {
     text-align: center;
-    height: 200px;
     border: blue solid 2px;
     padding-top: 40px;
 }
@@ -124,9 +123,23 @@ nav a:hover {
     float: right;
 }
 
+/* background radiation section */
+.background-radiation {
+    text-align: center;
+    border: blue solid 2px;
+    padding: 40px;
+}
+
+.background-radiation h2 {
+    margin: 20px;
+}
+
+/* iframe section */
 iframe {
     margin: auto;
     display: block;
+    width: 40%;
+    height: 1000px;
     /*To center iframe on page horizontally used help of aljaz-code solution in stackoverflow post */
  } 
 
