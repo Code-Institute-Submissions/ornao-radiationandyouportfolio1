@@ -72,4 +72,11 @@ footer {
     height: 75px;
     width: 100%;
     background-color: var(--amber-yellow);
+    padding-top: 15px;
+    position: fixed;
+    bottom: 0;
+}
+
+footer p {
+    margin: 5px;
 }
