@@ -80,7 +80,6 @@ nav a:hover {
 /* radiation section */
 .radiation {
     text-align: center;
-    border: blue solid 2px;
     padding-top: 40px;
 }
 
@@ -95,11 +94,9 @@ nav a:hover {
 /* radiation types section */
 .radiation-types {
     display: inline-block;
-    border: green solid 6px;
 }
 
 .radiation-types div {
-    border: red solid 2px;
     width: 33%;
     display: inherit;
     padding: 50px;
@@ -126,7 +123,6 @@ nav a:hover {
 /* background radiation section */
 .background-radiation {
     text-align: center;
-    border: blue solid 2px;
     padding: 40px;
 }
 
