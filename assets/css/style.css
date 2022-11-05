@@ -79,6 +79,10 @@ nav a:hover {
     text-align: center;
 }
 
+.radiation span {
+    border: rgb(89,203,232) dotted 4px;
+}
+
 .radiation div {
     display: inline-block;
     height: 600px;
@@ -91,7 +95,7 @@ nav a:hover {
 
 #sun img {
     max-width: 100%;
-    max-height: 100%;
+    max-height: 50%;
 }
 
 #food {
@@ -100,7 +104,7 @@ nav a:hover {
 
 #food img {
     max-width: 100%;
-    max-height: 100%;
+    max-height: 50%;
 }
 
 #gas {
@@ -110,7 +114,7 @@ nav a:hover {
 
 #gas img {
     max-width: 100%;
-    max-height: 100%;;
+    max-height: 50%;;
 }
 
 /* footer */
