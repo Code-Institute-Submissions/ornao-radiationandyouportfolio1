@@ -122,6 +122,12 @@ nav a:hover {
     max-height: 50%;
 }
 
+iframe {
+    margin: auto;
+    display: block;
+    /*To center iframe on page horizontally used help of aljaz-code solution in stackoverflow post */
+}
+
 /* footer */
 footer {
     height: 75px;
