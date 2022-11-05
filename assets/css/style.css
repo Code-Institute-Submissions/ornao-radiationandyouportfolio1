@@ -74,6 +74,24 @@ nav a:hover {
     background: url(../images/main-image.webp) no-repeat center center;
 }
 
+/* what is radiation page content */
+.radiation {
+    text-align: center;
+}
+
+.radiation div {
+    display: inline-block;
+}
+
+#sun {
+    float: left
+}
+
+#gas {
+    float: right;
+}
+
+
 /* footer */
 footer {
     height: 75px;
