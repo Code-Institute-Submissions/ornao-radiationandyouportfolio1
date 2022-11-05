@@ -34,6 +34,13 @@ h1, h2 {
     font-size: 250%;
 }
 
+#logo:hover {
+    background-color: var(--amber-yellow);
+    height: 100%;
+    width: 2.75%;
+    border-radius: 50%;
+}
+
 /* navigation */
 nav {
     float: right;
