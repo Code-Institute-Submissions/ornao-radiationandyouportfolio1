@@ -31,6 +31,10 @@ h1, h2, h3 {
     text-align: center;
 }
 
+h1 { 
+    font-size: 500%;
+}
+
 #logo {
     float: left;
     margin-left: 15px;
@@ -167,6 +171,7 @@ iframe {
 .x-ray div {
     width: 50%;
     height: 600px;
+    padding-top: 50px;
 }
 
 
