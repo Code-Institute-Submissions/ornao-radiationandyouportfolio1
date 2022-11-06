@@ -161,27 +161,27 @@ iframe {
  /* uses in medicine page */
 /* x-ray section */
 .x-ray {
-    position: relative;
+    display: flex;
 }
 
-#x-ray-image {
-    background: url(../images/x-ray.jpg) center;
-    width: 100%;
-    height: 1000px;
-    background-size: cover;
+.x-ray div {
+    width: 50%;
+    height: 600px;
+}
+
+
+#x-ray-image img {
+    max-width: 100%;
+    float: left;
 }
 
 #x-ray-text {
-    background-color: var(--electric-blue);
-    width: 300px;
-    height: 200px;
-    bottom: 30px;
-    right: 150px;
-    opacity: 0.7;
-    border-radius: 10%;
-    padding-top: 30px;
-    position: absolute;
-    font-size: 150%;
+    max-width: 100%;
+    float: right;
+} 
+
+#x-ray-text h2 {
+    margin-top: 30%;
 }
 
 /* footer */
