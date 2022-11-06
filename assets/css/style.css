@@ -163,6 +163,13 @@ iframe {
  } 
 
  /* uses in medicine page */
+.uses-intro {
+    padding: 40px;
+}
+
+.uses-intro h2 {
+    margin: 40px;
+}
 /* x-ray section */
 .x-ray {
     display: flex;
