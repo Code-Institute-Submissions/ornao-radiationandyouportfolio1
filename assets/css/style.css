@@ -189,6 +189,35 @@ iframe {
     margin-top: 30%;
 }
 
+/* ct section */
+.ct {
+    display: flex;
+}
+
+.ct div {
+    width: 50%;
+    height: 600px;
+    padding-top: 50px;
+}
+
+#ct-image {
+    float: right;
+}
+
+
+#ct-image img {
+    max-width: 100%;
+}
+
+#ct-text {
+    max-width: 100%;
+    float: left;
+} 
+
+#ct-text h2 {
+    margin-top: 30%;
+}
+
 /* footer */
 footer {
     height: 75px;
