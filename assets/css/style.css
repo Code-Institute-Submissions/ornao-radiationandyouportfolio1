@@ -189,6 +189,35 @@ iframe {
     margin-top: 30%;
 }
 
+/* fluoro section */
+.fluoro {
+    display: flex;
+}
+
+.fluoro div {
+    width: 50%;
+    height: 600px;
+    padding-top: 30px;
+}
+
+#fluoro-image {
+    float: right;
+}
+
+
+#fluoro-image img {
+    max-width: 100%;
+}
+
+#fluoro-text {
+    max-width: 100%;
+    float: left;
+} 
+
+#fluoro-text h2 {
+    margin-top: 30%;
+}
+
 /* ct section */
 .ct {
     display: flex;
@@ -197,7 +226,7 @@ iframe {
 .ct div {
     width: 50%;
     height: 600px;
-    padding-top: 50px;
+    padding-top: 30px;
 }
 
 #ct-image {
@@ -215,6 +244,35 @@ iframe {
 } 
 
 #ct-text h2 {
+    margin-top: 30%;
+}
+
+/* nucs section */
+.nucs {
+    display: flex;
+}
+
+.nucs div {
+    width: 50%;
+    height: 600px;
+    padding-top: 30px;
+}
+
+#nucs-image {
+    float: right;
+}
+
+
+#nucs-image img {
+    max-width: 100%;
+}
+
+#nucs-text {
+    max-width: 100%;
+    float: left;
+} 
+
+#nucs-text h2 {
     margin-top: 30%;
 }
 
