@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@300&display=swap');
 
 :root {
-    --amber-yellow: rgb(255, 191, 0)
+    --amber-yellow: rgb(255, 191, 0);
+    --electric-blue: rgb(89,203,232);
 }
 
 * {
@@ -69,11 +70,28 @@ nav a:hover {
     line-height: 75px;
 }
 
-/* main image */
+/* main image and cover text*/
+#landing {
+    position: relative;
+}
+
 #main-image {
     height: 600px;
     width: 100%;
     background: url(../images/main-image.webp) no-repeat center center;
+}
+
+#cover-text {
+    background-color: var(--electric-blue);
+    width: 300px;
+    height: 200px;
+    bottom: 30px;
+    right: 150px;
+    opacity: 0.7;
+    border-radius: 10%;
+    padding-top: 30px;
+    position: absolute;
+    font-size: 150%;
 }
 
 /* what is radiation page content */
@@ -88,7 +106,7 @@ nav a:hover {
 }
 
 .radiation span {
-    border: rgb(89,203,232) dotted 4px;
+    border: var(--electric-blue) dotted 4px;
 }
 
 /* radiation types section */
