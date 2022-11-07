@@ -316,6 +316,21 @@ iframe {
     margin-top: 30%;
 }
 
+/* risks page */
+/* table */
+table { 
+    margin: 50px auto;
+    font-size: 150%;
+    text-align: center;
+    border: black 2px solid;
+}
+
+table tr, table td {
+    padding: 15px;
+    margin: 15px;
+    border: black 2px solid;
+}
+
 /* footer */
 footer {
     height: 75px;
