@@ -331,6 +331,30 @@ table tr, table td {
     border: black 2px solid;
 }
 
+/* questions page */
+/* .bubbles {
+    display: block;
+} */
+
+#bubble1 {
+    height: 600px;
+    width: 50.5%;
+    background-image: url(../images/bubble.jpg);
+    background-size: contain;
+    float: left;
+    background-repeat: no-repeat;
+}
+
+#bubble2 {
+    height: 600px;
+    width: 50.5%;
+    background-image: url(../images/bubble.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: right;
+    transform: scaleX(-1);
+}
+
 /* footer */
 footer {
     height: 75px;
