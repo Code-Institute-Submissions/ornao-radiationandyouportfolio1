@@ -91,12 +91,12 @@ nav a:hover {
 #cover-text {
     background-color: rgb(255,140,0);
     width: 400px;
-    height: 300px;
-    bottom: 5px;
-    right: 170px;
+    height: 400px;
+    right: 60px;
+    bottom: 100px;
     opacity: 0.9;
-    border-radius: 10%;
-    padding-top: 30px;
+    border-radius: 50%;
+    padding-top: 100px;
     position: absolute;
     font-size: 200%;
 }
