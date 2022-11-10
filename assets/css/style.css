@@ -375,6 +375,10 @@ table tr, table td {
 .bubbles h2 {
     margin-bottom: 10px;
 }
+
+form {
+    margin-bottom: 100px;
+}
 /* footer */
 footer {
     height: 75px;
