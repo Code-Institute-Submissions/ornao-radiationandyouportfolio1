@@ -333,10 +333,6 @@ table tr, table td {
 }
 
 /* questions page */
-/* .bubbles {
-    display: block;
-} */
-
 #bubble1 {
     height: 600px;
     width: 50.5%;
@@ -375,8 +371,18 @@ table tr, table td {
 .bubbles h2 {
     margin-bottom: 10px;
 }
+/* form */
+.form {
+    background-color: green;
+}
 
-form {
+form input, form label {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+form button {
     margin-bottom: 100px;
 }
 /* footer */
