@@ -305,6 +305,7 @@ iframe {
 #dexa-image img {
     max-width: 100%;
     float: left;
+    padding-bottom: 60px;
 }
 
 #dexa-text {
@@ -355,6 +356,25 @@ table tr, table td {
     transform: scaleX(-1);
 }
 
+#bubble-text1 {
+    float: right;
+    text-align: center;
+    height: 600px;
+    width: 49.5%;
+    padding-top: 260px;
+}
+
+#bubble-text2 {
+    float: left;
+    text-align: center;
+    height: 600px;
+    width: 49.5%;
+    padding-top: 260px;
+}
+
+.bubbles h2 {
+    margin-bottom: 10px;
+}
 /* footer */
 footer {
     height: 75px;
