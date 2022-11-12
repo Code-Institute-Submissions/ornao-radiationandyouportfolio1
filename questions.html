@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="hospital radiation doses explanation for children and parents">
     <meta name="keywords" content="radiation, doses, children, parents, x-rays, hospital">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Radiation & You</title>
 </head>
@@ -18,13 +19,20 @@
                 <h1 id="logo"><i class="fa-solid fa-radiation"></i></h1>
             </a>
             <nav>
-                <a href="index.html">Home</a>
-                <a href="radiation.html">What is radiation?</a>
-                <a href="uses.html">How do we use radiation in medicine?</a>
-                <a href="risks.html">Are there any risks associated with radiation?</a>
-                <a href="questions.html" class="active">FAQs</a>
+                <!-- bootstrap dropdown nav -->
+                  <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                         <i class="fa-solid fa-bars"></i> </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li><a class="dropdown-item" href="index.html">Home</a></li>
+                      <li><a class="dropdown-item" href="radiation.html">What is radiation?</a></li>
+                      <li><a class="dropdown-item" href="uses.html">How do we use radiation in medicine?</a></li>
+                      <li><a class="dropdown-item" href="risks.html">Are there any risks associated with radiation?</a>
+                      <li><a class="dropdown-item" href="questions.html" class="active">FAQs</a>
+                    </ul>
+                  </div>
             </nav>
-        </div>
+        
     </header>
     <section>
         <form action="">
@@ -92,6 +100,7 @@
     </footer>
     <!-- font awesome script -->
     <script src="https://kit.fontawesome.com/eef88ca571.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
 
 </html>
