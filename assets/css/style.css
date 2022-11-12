@@ -92,21 +92,22 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 800px; 
+    height: 700px; 
     width: 100%;
-    background: url(../images/main-image1.jpg) no-repeat center center;
-    background-size: contain;  
+    background: url(../images/mainimage2.jpg) no-repeat center center;
+    background-size: cover; 
+    filter: saturate(3);
 }
 
-#cover-text h3 {
-    background-color: rgb(255, 140, 0);
-    width: 400px;
+#cover-text {
+    padding-top: 200px;
+    height: 600px;
+    width: 600px;
+    background-color: var(--amber-yellow);
+    opacity: 0.9;
+    border-radius: 50%;
 }
 
-#cover-text h4 {
-    background-color: rgb(255, 140, 0);
-    width: 400px;
-}
 
 /* what is radiation page content */
 /* radiation section */
