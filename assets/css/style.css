@@ -87,32 +87,24 @@ nav {
 }
 
 /* main image and cover text*/
-#landing {
-    position: relative;
-}
-
-#main-image {
+#flexbox-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 600px;
     width: 100%;
     background: url(../images/main-image1.jpg) no-repeat;
     background-size: contain; 
 }
 
-#cover-text {
+#cover-text h3 {
     background-color: rgb(255, 140, 0);
     width: 400px;
-    height: 400px;
-    right: 60px;
-    bottom: 100px;
-    opacity: 0.9;
-    border-radius: 50%;
-    padding-top: 100px;
-    position: absolute;
-    font-size: 200%;
 }
 
-#cover-text h3 {
-    margin-top: 20px;
+#cover-text h4 {
+    background-color: rgb(255, 140, 0);
+    width: 400px;
 }
 
 /* what is radiation page content */
@@ -438,9 +430,9 @@ footer p {
 
 /* media queries
 /* for larger screen */
-@media screen and (max-width: 1200px ) {}
+/* @media screen and (max-width: 1200px ) {}
 .landing {
     width: 65%;
     height: 1200px;
-} 
+}  */
 
