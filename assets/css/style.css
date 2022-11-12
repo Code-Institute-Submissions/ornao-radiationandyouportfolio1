@@ -21,6 +21,7 @@ body {
 .header {
     height: 75px;
     width: 100%;
+    background-color: aqua;
 }
 
 /* headings and logo */
@@ -91,10 +92,10 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 600px;
+    height: 800px; 
     width: 100%;
-    background: url(../images/main-image1.jpg) no-repeat;
-    background-size: contain; 
+    background: url(../images/main-image1.jpg) no-repeat center center;
+    background-size: contain;  
 }
 
 #cover-text h3 {
@@ -131,6 +132,8 @@ nav {
     width: 33%;
     display: inherit;
     padding: 50px;
+    /* border: 1px solid;
+    box-shadow: 5px 10px #888888; */
 }
 
 .radiation-types div p {
@@ -428,11 +431,10 @@ footer p {
     margin: 5px;
 }
 
-/* media queries
-/* for larger screen */
-/* @media screen and (max-width: 1200px ) {}
-.landing {
-    width: 65%;
-    height: 1200px;
-}  */
+/* /* media queries */
+/* for larger screen */ 
+/* @media screen and (max-width: 1300px ) {}
+nav {
+  
+}   */
 
