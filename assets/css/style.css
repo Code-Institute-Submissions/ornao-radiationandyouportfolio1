@@ -90,8 +90,8 @@ nav {
 /* main image and cover text*/
 #flexbox-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: center; 
+    align-items: center; 
     height: 700px; 
     width: 100%;
     background: url(../images/mainimage2.jpg) no-repeat center center;
@@ -100,7 +100,11 @@ nav {
 }
 
 #cover-text {
-    padding-top: 17%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
     height: 600px;
     width: 600px;
     background-color: var(--amber-yellow);
