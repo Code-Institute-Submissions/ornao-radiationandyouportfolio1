@@ -100,7 +100,7 @@ nav {
 }
 
 #cover-text {
-    padding-top: 200px;
+    padding-top: 17%;
     height: 600px;
     width: 600px;
     background-color: var(--amber-yellow);
@@ -433,9 +433,23 @@ footer p {
 }
 
 /* /* media queries */
-/* for larger screen */ 
-/* @media screen and (max-width: 1300px ) {}
-nav {
-  
-}   */
+ 
+/* for index.html page */
+/* for medium screens and below */
+@media screen and (max-width: 950px ) {
+#cover-text {
+  height: 400px;
+  width: 400px;
+}   
+
+#cover-text h1 {
+    font-size: 200%;
+    padding-top: 5%;
+}
+
+#cover-text h2 {
+    font-size: 150%;
+}
+
+}
 
