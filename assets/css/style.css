@@ -394,7 +394,7 @@ table td {
     height: 500px;
 }
 
-#form h2 {
+#form h2, h2 {
     padding-top: 16px;
 }
 
