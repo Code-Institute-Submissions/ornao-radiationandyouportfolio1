@@ -190,24 +190,13 @@ iframe {
     align-items: center;
 }
 
-/* .x-ray div {
-    width: 50%;
-    height: 600px;
-    padding-top: 50px;
-} */
-
-
 #x-ray-image img {
-    max-width: 100%;
+    max-width: 90%;
 }
 
 #x-ray-text {
     max-width: 100%;
 }
-
-/* #x-ray-text h2 {
-    margin-top: 30%;
-} */
 
 /* fluoro section */
 .fluoro {
@@ -216,28 +205,13 @@ iframe {
     align-items: center;
 }
 
-/* .fluoro div {
-    width: 50%;
-    height: 600px;
-    padding-top: 30px;
-} */
-
-/* #fluoro-image {
-    float: right;
-} */
-
-
 #fluoro-image img {
     max-width: 100%;
 }
 
 #fluoro-text {
-    max-width: 40%;
+    max-width: 50%;
 }
-
-/* #fluoro-text h2 {
-    margin-top: 30%;
-} */
 
 /* ct section */
 .ct {
@@ -245,17 +219,6 @@ iframe {
     justify-content: space-between;
     align-items: center;
 }
-
-/* .ct div {
-    width: 50%;
-    height: 600px;
-    padding-top: 30px;
-} */
-
-/* #ct-image {
-    float: right;
-} */
-
 
 #ct-image img {
     max-width: 100%;
@@ -265,10 +228,6 @@ iframe {
     max-width: 40%;
 }
 
-/* #ct-text h2 {
-    margin-top: 30%;
-} */
-
 /* nucs section */
 .nucs {
     display: flex;
@@ -276,28 +235,13 @@ iframe {
     align-items: center;
 }
 
-/* .nucs div {
-    width: 50%;
-    height: 600px;
-    padding-top: 30px;
-} */
-
-/* #nucs-image {
-    float: right;
-} */
-
-
 #nucs-image img {
     max-width: 100%;
 }
 
 #nucs-text {
-    max-width: 100%;
+    max-width: 50%;
 }
-
-/* #nucs-text h2 {
-    margin-top: 30%;
-} */
 
 /* DEXA */
 .dexa {
@@ -306,24 +250,13 @@ iframe {
     align-items: center;
 }
 
-/* .dexa div {
-    width: 50%;
-    height: 600px;
-    padding-top: 50px;
-} */
-
-
 #dexa-image img {
     max-width: 100%;
 }
 
 #dexa-text {
-    max-width: 100%;
+    max-width: 50%;
 }
-
-/* #dexa-text h2 {
-    margin-top: 30%;
-} */
 
 /* risks page */
 /* table */
