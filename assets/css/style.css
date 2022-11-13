@@ -487,6 +487,15 @@ footer p {
     }
 }
 
+/* for smaller screen 500px and below */
+@media screen and (max-width: 500px) {
+    #sun,
+    #food,
+    #gas {
+        width: 90%;
+    }
+
+}
 
 
 /* @media screen and (max-width: 680px) {
