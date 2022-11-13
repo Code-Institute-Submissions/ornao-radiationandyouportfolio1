@@ -186,28 +186,28 @@ iframe {
 /* x-ray section */
 .x-ray {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.x-ray div {
+/* .x-ray div {
     width: 50%;
     height: 600px;
     padding-top: 50px;
-}
+} */
 
 
 #x-ray-image img {
     max-width: 100%;
-    float: left;
 }
 
 #x-ray-text {
     max-width: 100%;
-    float: right;
 }
 
-#x-ray-text h2 {
+/* #x-ray-text h2 {
     margin-top: 30%;
-}
+} */
 
 /* fluoro section */
 .fluoro {
