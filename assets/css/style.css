@@ -275,7 +275,43 @@ table td {
 }
 
 /* questions page */
+.bubbles {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+#risks-faqs, #benefits-faqs, #moredetail-faqs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
 #bubble1 {
+    background-image: url(../images/bubble.jpg);
+    max-width: 100%;
+    background-color: aqua;
+}
+
+#bubble2 {
+    background-image: url(../images/bubble.jpg);
+    transform: scaleX(-1);
+    max-width: 100%;
+}
+
+#bubble-text1 {
+    max-width: 100%;
+}
+
+#bubble-text2 {
+    max-width: 100%;
+}
+
+
+/* #bubble1 {
     height: 600px;
     width: 50.5%;
     background-image: url(../images/bubble.jpg);
@@ -292,9 +328,9 @@ table td {
     background-repeat: no-repeat;
     float: right;
     transform: scaleX(-1);
-}
+} */
 
-#bubble-text1 {
+/* #bubble-text1 {
     float: right;
     text-align: center;
     height: 600px;
@@ -308,11 +344,11 @@ table td {
     height: 600px;
     width: 49.5%;
     padding-top: 260px;
-}
+} */
 
-.bubbles h2 {
+/* .bubbles h2 {
     margin-bottom: 10px;
-}
+} */
 
 /* form */
 #form {
