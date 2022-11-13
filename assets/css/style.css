@@ -369,6 +369,13 @@ aside {
     float: right;
 }
 
+aside ul li {
+    list-style: none;
+    padding: 1%;
+    background-color: rgb(245, 245, 245);
+    margin: 1%;
+}
+
 /* footer */
 footer {
     height: fit-content;
