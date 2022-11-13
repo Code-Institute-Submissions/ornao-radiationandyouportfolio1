@@ -95,7 +95,7 @@ nav {
     height: 700px;
     width: 100%;
     margin-bottom: 75px;
-    background: url(../images/mainimage2.jpg) no-repeat center center;
+    background: url(../images/mainimage2-small.jpg) no-repeat center center;
     background-size: cover;
     filter: saturate(3);
 }
@@ -505,5 +505,10 @@ footer p {
         width: 90%;
         height: 500px;
     } 
-
 }
+
+/* @media screen and (max-width: 680px) {
+    #main-heading-radiation {
+        
+        border: green solid 2px;
+    }  */
