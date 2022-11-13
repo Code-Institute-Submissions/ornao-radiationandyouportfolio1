@@ -2,7 +2,7 @@
 
 :root {
     --amber-yellow: rgb(255, 191, 0);
-    --electric-blue: rgb(89, 203, 232);
+    --dark-turquoise: rgb(0,206,209);
 }
 
 * {
@@ -50,13 +50,13 @@ h3 {
     float: left;
     margin-left: 15px;
     font-size: 250%;
+    width: 80px;
 }
 
 #logo:hover {
     background-color: var(--amber-yellow);
-    height: 100%;
-    width: 2.75%;
-    border-radius: 50%;
+    border: black solid 4px;
+    border-radius: 100%;
 }
 
 /* navigation */
@@ -126,7 +126,7 @@ nav {
 }
 
 .radiation span {
-    border: var(--electric-blue) dotted 4px;
+    border: var(--dark-turquoise) dotted 4px;
 }
 
 /* radiation types section */
