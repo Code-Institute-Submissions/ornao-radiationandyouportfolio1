@@ -384,10 +384,44 @@ footer p {
         font-size: 200%;
     }
 
-    .x-ray, .fluoro, .ct, .nucs, .dexa {
+    .x-ray,
+    .fluoro,
+    .dexa {
         flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
     }
-}
+
+    .ct,
+    .nucs {
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #x-ray-text,
+    #x-ray-image,
+    #ct-text,
+    #fluoro-text,
+    #fluoro-image,
+    #nucs-text,
+    #nucs-image,
+    #dexa-text {
+        max-width: 100%;
+    } 
+
+    #ct-image, #dexa-image {
+        max-width: 90%;
+    }
+
+    #x-ray-image {
+        margin-left: 10%;
+    }
+
+    .uses-types div > h3 {
+        padding: 10%;
+    }
+} 
 
 /* for large to medium screens 950px and below */
 @media screen and (max-width: 950px) {
