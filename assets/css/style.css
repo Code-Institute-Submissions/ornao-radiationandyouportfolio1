@@ -319,9 +319,10 @@ table td {
     background-color: rgb(245, 245, 245);
     border: outset;
     height: 500px;
-    max-width: 80%;
-    margin: 0 auto;
+    width: 60%;
+    float: left;
     padding-bottom: 40%;
+    display: block;
 }
 
 #form h2,
@@ -359,13 +360,22 @@ button[type=submit]:hover {
     border: inset;
 }
 
+/* aside */
+aside {
+    display: block;
+    background-color: #888888;
+    width: 30%;
+    margin: 13% 1.5% 0 0;
+    float: right;
+}
+
 /* footer */
 footer {
     height: fit-content;
     width: 100%;
     background-color: var(--amber-yellow);
     padding-top: 15px;
-    position: static;
+    position: fixed;
     bottom: 0;
 }
 
