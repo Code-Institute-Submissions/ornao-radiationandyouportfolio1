@@ -8,6 +8,25 @@ I work full-time in a children’s hospital and hence this website will be cater
 
 ## Features
 
+There are 5 pages on the website:
+- Home (index.html)
+- What Is Radiation? (radiation.html)
+- How Do We Use Radiation in Medicine? (uses.html)
+- Are There Any Risks Associated with X-rays? (risk.html)
+- FAQs (questions.html)
+
+There are 15 features on this website: 
+- Logo and nav var
+- Hero image and cover text
+- Radiation types (3)
+- Radon map iframe
+- Radiation uses types (5)
+- Risks table
+- Contact form
+- FAQ section 
+- Footer
+
+
 ## Testing 
 
 ## Deployment
