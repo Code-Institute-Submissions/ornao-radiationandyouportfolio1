@@ -142,7 +142,9 @@ nav {
     max-width: 100%;
 }
 
-#sun, #food, #gas {
+#sun,
+#food,
+#gas {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -466,7 +468,9 @@ footer p {
 }
 
 /* for even smaller screens and below */
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 500px) {
+   
+
     #cover-text {
         height: 300px;
         width: 300px;
@@ -487,7 +491,9 @@ footer p {
         flex-direction: column;
     }
 
-    #sun, #food, #gas {
+    #sun,
+    #food,
+    #gas {
         width: 80%;
         margin-bottom: 10%;
     }
@@ -496,7 +502,7 @@ footer p {
         width: 80%;
         height: 1000px;
 
-    } 
+    }
 }
 
 
@@ -504,7 +510,12 @@ footer p {
     iframe {
         width: 90%;
         height: 500px;
-    } 
+    }
+
+    #flexbox-container {
+        background-image: url(../images/mainimage2-smaller1.jpg);
+        height: 500px;
+    }
 }
 
 /* @media screen and (max-width: 680px) {
