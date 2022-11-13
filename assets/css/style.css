@@ -147,7 +147,10 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     width: 30%;
+    border: 1px solid;
+    box-shadow: 10px 15px #888888;
 }
 
 /* background radiation section */
@@ -483,12 +486,11 @@ footer p {
 @media screen and (max-width: 950px) {
     .radiation-types {
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
     }
 
     #sun, #food, #gas {
         width: 80%;
+        margin-bottom: 10%;
     }
 
     iframe {
