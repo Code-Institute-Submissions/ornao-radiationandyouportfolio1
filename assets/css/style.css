@@ -369,8 +369,7 @@ footer p {
 }
 
 /* /* media queries */
-/* for index.html page */
-/* for medium screens and below */
+/* for larger screens 1100px and below */
 @media screen and (max-width: 1100px) {
     #cover-text {
         height: 500px;
@@ -384,43 +383,13 @@ footer p {
     #cover-text h2 {
         font-size: 200%;
     }
-}
 
-/* for smaller screens and below */
-@media screen and (max-width: 800px) {
-    #cover-text {
-        height: 400px;
-        width: 400px;
-    }
-
-    #cover-text h1 {
-        font-size: 300%;
-    }
-
-    #cover-text h2 {
-        font-size: 150%;
+    .x-ray, .fluoro, .ct, .nucs, .dexa {
+        flex-direction: column;
     }
 }
 
-/* for even smaller screens and below */
-@media screen and (max-width: 500px) {
-   
-
-    #cover-text {
-        height: 300px;
-        width: 300px;
-    }
-
-    #cover-text h1 {
-        font-size: 200%;
-    }
-
-    #cover-text h2 {
-        font-size: 100%;
-    }
-}
-
-/* for radiation.html */
+/* for large to medium screens 950px and below */
 @media screen and (max-width: 950px) {
     .radiation-types {
         flex-direction: column;
@@ -440,8 +409,39 @@ footer p {
     }
 }
 
+/* for medium to smaller screens 800px and below */
+@media screen and (max-width: 800px) {
+    #cover-text {
+        height: 400px;
+        width: 400px;
+    }
 
+    #cover-text h1 {
+        font-size: 300%;
+    }
+
+    #cover-text h2 {
+        font-size: 150%;
+    }
+}
+
+/* for smaller screens 500px and below */
 @media screen and (max-width: 500px) {
+
+
+    #cover-text {
+        height: 300px;
+        width: 300px;
+    }
+
+    #cover-text h1 {
+        font-size: 200%;
+    }
+
+    #cover-text h2 {
+        font-size: 100%;
+    }
+
     iframe {
         width: 90%;
         height: 500px;
@@ -452,6 +452,8 @@ footer p {
         height: 500px;
     }
 }
+
+
 
 /* @media screen and (max-width: 680px) {
     #main-heading-radiation {
