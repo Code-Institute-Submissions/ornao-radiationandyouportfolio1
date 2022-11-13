@@ -457,6 +457,14 @@ footer p {
     #cover-text h2 {
         font-size: 150%;
     }
+
+    h1 {
+        font-size: 300%;
+    }
+
+    h2 {
+        font-size: 150%;
+    }
 }
 
 /* for smaller screens 500px and below */
@@ -474,6 +482,14 @@ footer p {
 
     #cover-text h2 {
         font-size: 100%;
+    }
+
+    h1 {
+        font-size: 250%;
+    }
+
+    h2 {
+        font-size: 150%;
     }
 
     iframe {
@@ -496,10 +512,3 @@ footer p {
     }
 
 }
-
-
-/* @media screen and (max-width: 680px) {
-    #main-heading-radiation {
-        
-        border: green solid 2px;
-    }  */
