@@ -92,7 +92,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 700px;
+    height: 75vh;
     width: 100%;
     margin-bottom: 75px;
     background: url(../images/mainimage2-small.jpg) no-repeat center center;
@@ -106,8 +106,8 @@ nav {
     align-items: center;
     flex-wrap: wrap;
     align-content: center;
-    height: 600px;
-    width: 600px;
+    height: 450px;
+    width: 450px;
     background-color: var(--amber-yellow);
     opacity: 0.9;
     border-radius: 50%;
@@ -188,6 +188,12 @@ iframe {
 
 .uses-intro h2 {
     margin: 40px;
+}
+
+/* uses types */
+
+.uses-types h2 {
+    color: #7392ef;
 }
 
 /* x-ray section */
@@ -442,17 +448,17 @@ footer p {
 /* for larger screens 1100px and below */
 @media screen and (max-width: 1100px) {
     #cover-text {
-        height: 500px;
-        width: 500px;
+        height: 400px;
+        width: 400px;
     }
 
-    #cover-text h1 {
+    /* #cover-text h1 {
         font-size: 400%;
     }
 
     #cover-text h2 {
         font-size: 200%;
-    }
+    } */
 
     .x-ray,
     .fluoro,
@@ -514,6 +520,14 @@ footer p {
     }
 }
 
+/* for medium screens 900px and below */
+@media screen and (max-width: 900px) {
+    #cover-text {
+        height: 375px;
+        width: 375px;
+    }
+}
+
 /* for medium screens 850px and below */
 @media screen and (max-width: 850px) {
     table {
@@ -524,18 +538,18 @@ footer p {
 
 /* for medium to small screens 800px and below */
 @media screen and (max-width: 800px) {
-    #cover-text {
+    /* #cover-text {
         height: 400px;
         width: 400px;
-    }
+    } */
 
-    #cover-text h1 {
+    /* #cover-text h1 {
         font-size: 300%;
     }
 
     #cover-text h2 {
         font-size: 150%;
-    }
+    } */
 
     h1 {
         font-size: 300%;
@@ -548,6 +562,15 @@ footer p {
 
 /* for small screens 570x and below */
 @media screen and (max-width: 570px) {
+    #cover-text {
+        height: 350px;
+        width: 350px;
+    }
+
+    #cover-text h1, #cover-text h2 {
+        margin: 0 8% 0 8%;
+    }
+
     table {
         font-size: 80%;
     }
@@ -569,13 +592,17 @@ footer p {
         width: 300px;
     }
 
-    #cover-text h1 {
+    #cover-text h1, #cover-text h2 {
+        margin: 0 12% 0 12%;
+    }
+
+    /* #cover-text h1 {
         font-size: 200%;
     }
 
     #cover-text h2 {
         font-size: 100%;
-    }
+    } */
 
     h1 {
         font-size: 250%;
@@ -591,8 +618,8 @@ footer p {
     }
 
     #flexbox-container {
-        background-image: url(../images/mainimage2-smaller1.jpg);
-        height: 500px;
+        /* background-image: url(../images/mainimage2-smaller1.jpg); */
+        /* height: 500px; */
     }
 
     #sun,
@@ -626,6 +653,19 @@ footer p {
     table td {
         padding: 2.5px;
         margin: 2.5px;
+    }
+
+    #cover-text {
+        height: 250px;
+        width: 250px;
+    }
+
+    #cover-text h1 {
+        font-size: 180%;
+    }
+
+    #cover-text h2 {
+        font-size: 120%;
     }
 
 }
