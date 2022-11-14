@@ -133,10 +133,9 @@ nav {
 
 .radiation-types {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    width: 100%;
-}
+} 
 
 .radiation-types div img {
     max-width: 100%;
@@ -154,7 +153,10 @@ nav {
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 30%;
+    height: 750px;
+    flex: 1;
+    padding: 5px;
+    margin: 10px;
     border: 1px solid;
     box-shadow: 10px 15px #888888;
 }
