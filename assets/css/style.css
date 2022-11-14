@@ -3,6 +3,8 @@
 :root {
     --amber-yellow: rgb(255, 191, 0);
     --dark-turquoise: rgb(0, 206, 209);
+    --light-grey: rgb(136,136,136);
+    --muted-black: rgb(48, 48, 48);
 }
 
 * {
@@ -417,7 +419,7 @@ button[type=submit]:hover {
 /* aside */
 aside {
     display: block;
-    background-color: #888888;
+    background-color: var(--light-grey);
     width: 30%;
     margin: 13% 1.5% 0 0;
     float: right;
@@ -435,6 +437,7 @@ footer {
     height: fit-content;
     width: 100%;
     background-color: var(--amber-yellow);
+    color: var(--muted-black);
     padding-top: 15px;
     position: static;
     bottom: 0;
