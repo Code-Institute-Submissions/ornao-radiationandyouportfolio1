@@ -5,6 +5,7 @@
     --dark-turquoise: rgb(0, 206, 209);
     --light-grey: rgb(136,136,136);
     --muted-black: rgb(48, 48, 48);
+    --off-white: rgb(245, 245, 245);
 }
 
 * {
@@ -96,7 +97,6 @@ nav {
     align-items: center;
     height: 75vh;
     width: 100%;
-    margin-bottom: 75px;
     background: url(../images/mainimage2-small.jpg) no-repeat center center;
     background-size: cover;
     filter: saturate(3);
@@ -115,6 +115,27 @@ nav {
     border-radius: 50%;
 }
 
+#guide {
+    height: 400px;
+    width: 500px;
+    background-color: var(--off-white);
+    margin: 10px auto;
+
+}
+
+#guide h2, #guide p {
+    padding: 10px;
+}
+
+#guide a {
+    text-decoration: none;
+    color: black;
+    border-bottom: solid 2px var(--amber-yellow);
+}
+
+#guide a:hover {
+    border-bottom: solid 3px var(--amber-yellow);
+}
 
 /* what is radiation page content */
 /* radiation section */
@@ -372,7 +393,7 @@ table td {
 
 /* form */
 #form {
-    background-color: rgb(245, 245, 245);
+    background-color: var(--off-white);
     border: outset;
     height: 500px;
     width: 60%;
