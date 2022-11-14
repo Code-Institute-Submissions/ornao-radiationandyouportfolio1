@@ -116,15 +116,19 @@ nav {
 }
 
 #guide {
-    height: 400px;
+    height: 550px;
     width: 500px;
     background-color: var(--off-white);
-    margin: 10px auto;
+    margin: 20px auto;
 
 }
 
 #guide h2, #guide p {
     padding: 10px;
+}
+
+#guide i {
+    font-size: 180%;
 }
 
 #guide a {
