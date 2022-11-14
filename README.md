@@ -52,10 +52,24 @@ There are 15 features on this website:
 
 </details>
 
+### Main image and cover text
+
+<img src="assets/docs/features/main-image--cover-text.png" alt="main image and cover text displayed">
+
+#### Main image 
+- Cartoon style x-ray of human body as the developed wanted the website assessible to children (as they form part of the target audience). 
+- Inclusion of a form of radiation (x-ray) and human body (x-rayed skeleton) was important to the developer for the title 'Radiation & You' to be tied in. Hence, this particular image was chosen as the main image. 
+- Orginal image was somewhat muted and bland so developer increased satruation to match bright colour scheme of rest of site. 
+
+#### Cover Text
+- Cover text consists of one h1 and one h2 element.
+- h1 element states the title of the site and h2 elemnt gives a brief description of the site to further explain and tie in main image and title. The inclusion of all these elements leaves the user in no doubt to what the site is about. 
+- Circle in amber-yellow was chosen in omage to well-know radiation symbol and ties in with logo: hover. 
+- The developer played with the idea of including a Begin button within the cover-text but decided a guide would give the user more versility instead. 
 
 
 
-- Hero image and cover text
+
 - Radiation types (3)
 - Radon map iframe
 - Radiation uses types (5)
