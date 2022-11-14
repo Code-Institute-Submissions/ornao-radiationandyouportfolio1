@@ -16,7 +16,30 @@ There are 5 pages on the website:
 - FAQs (questions.html)
 
 There are 15 features on this website: 
-- Logo and nav var
+### Logo and nav bar
+
+<img src="assets/docs/features/logo-nav.png" alt="logo and nav bar screenshot">
+
+#### Logo
+- Logo acts as home button as linked to index.html.
+- Logo depicts radiation symbol which is very appropriate for this website.
+- Logo:hover styles the radiation symbol with yellow circle background which is a well-known design and colour associated with radiation. This added design allow uses to know this is a clickable element.
+
+<img src="assets/docs/features/logo.png" alt="radiation symbol as logo"><img src="assets/docs/features/logo-hover.png" alt="radiation symbol with amber yellow circle background when hovered">
+
+#### Nav
+- Nav appears as dropdown to right of header.
+- Nav chosen to be displayed as dropdown to ease responsiveness and consistency of each page header at different screen sizes. 
+- While a bootstrap element, font awesome icon chosen by developer instead of pre-defined text. Icon chosen to steer wesbite towards more intuitive layout. This symbol was well-known to the developer through other websites they had visited previously and hence developer believe other users would know this symbol contained the navigation bar. 
+- A downside of using this boostrap element was that it could not be styled by the developer. As this was the devloper's first time using bootstrap, they were not 100% comfortable using and and adapting elelments to the page. 
+- In future, the developer would like to add add their own dropdown code and style accordingly to completely match website color scheme.
+
+<img src="assets/docs/features/nav-button-dropdown.png" alt="nav bar dropdown button">
+
+<img src="assets/docs/features/nav-dropdown.png" alt="nav bar dropdown list">
+
+
+
 - Hero image and cover text
 - Radiation types (3)
 - Radon map iframe
