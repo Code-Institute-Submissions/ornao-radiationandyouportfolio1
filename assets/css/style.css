@@ -13,9 +13,10 @@
 }
 
 body {
-    font-family: Montserrat, sans-serif;
-    font-weight: 300;
+    /* font-family: Montserrat, sans-serif; */
+    font-weight: 400;
     color: black;
+    text-align: center;
 }
 
 .header {
@@ -27,14 +28,16 @@ body {
 h1,
 h2,
 h3 {
-    font-family: Roboto, sans-serif;
-    font-weight: 500;
+    /* font-family: Roboto, sans-serif; */
+    font-weight: 400;
     color: black;
     text-align: center;
 }
 
 h1 {
-    font-size: 4rem;
+    font-size: 3rem;
+    background-color: var(--dark-turquoise);
+    color: white;
 }
 
 #logo {
@@ -45,7 +48,7 @@ h1 {
 }
 
 #logo:hover {
-    background-color: var(--amber-yellow);
+    background-color: var(--amber-yellow) !important;
     border: black solid 4px;
     border-radius: 100%;
 }
