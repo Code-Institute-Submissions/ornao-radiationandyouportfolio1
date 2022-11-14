@@ -38,6 +38,8 @@ h1 {
     font-size: 3rem;
     background-color: var(--dark-turquoise);
     color: white;
+    padding: 1%;
+    margin-top: 0.5%;
 }
 
 #logo {
