@@ -25,7 +25,15 @@ There are 15 features on this website:
 - Logo depicts radiation symbol which is very appropriate for this website.
 - Logo:hover styles the radiation symbol with yellow circle background which is a well-known design and colour associated with radiation. This added design allow uses to know this is a clickable element.
 
-<img src="assets/docs/features/logo.png" alt="radiation symbol as logo"><img src="assets/docs/features/logo-hover.png" alt="radiation symbol with amber yellow circle background when hovered">
+<details open>
+<summary>Logo Screenshots</summary>
+<br>
+
+<img src="assets/docs/features/logo.png" alt="radiation symbol as logo">
+
+<img src="assets/docs/features/logo-hover.png" alt="radiation symbol with amber yellow circle background when hovered">
+
+</details>
 
 #### Nav
 - Nav appears as dropdown to right of header.
@@ -34,9 +42,16 @@ There are 15 features on this website:
 - A downside of using this boostrap element was that it could not be styled by the developer. As this was the devloper's first time using bootstrap, they were not 100% comfortable using and and adapting elelments to the page. 
 - In future, the developer would like to add add their own dropdown code and style accordingly to completely match website color scheme.
 
+<details open>
+<summary>Nav Screenshots</summary>
+<br>
+
 <img src="assets/docs/features/nav-button-dropdown.png" alt="nav bar dropdown button">
 
 <img src="assets/docs/features/nav-dropdown.png" alt="nav bar dropdown list">
+
+</details>
+
 
 
 
