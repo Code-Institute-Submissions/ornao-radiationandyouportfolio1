@@ -90,6 +90,17 @@ nav {
     line-height: 75px;
 }
 
+#page-bottom-nav, #next-page-nav {
+    color: black;
+    text-decoration: none;
+    border-bottom: solid 4px var(--dark-turquoise);
+}
+
+#next-page-nav {
+    float: right;
+    margin-right: 10px;
+}
+
 /* main image and cover text*/
 #flexbox-container {
     display: flex;
@@ -466,6 +477,7 @@ footer {
     padding-top: 15px;
     position: static;
     bottom: 0;
+    margin-top: 10px;
 }
 
 footer p {
