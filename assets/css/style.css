@@ -2,7 +2,7 @@
 
 :root {
     --amber-yellow: rgb(255, 191, 0);
-    --dark-turquoise: rgb(0,206,209);
+    --dark-turquoise: rgb(0, 206, 209);
 }
 
 * {
@@ -47,6 +47,10 @@ h1 {
     margin-left: 15px;
     font-size: 250%;
     width: 80px;
+    color: black;
+    background-color: white;
+    margin-top: 0;
+    padding: 0;
 }
 
 #logo:hover {
@@ -131,7 +135,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-} 
+}
 
 .radiation-types div img {
     max-width: 100%;
@@ -286,7 +290,8 @@ table td {
     width: 100%;
 }
 
-#risks-faqs, #moredetail-faqs {
+#risks-faqs,
+#moredetail-faqs {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -307,7 +312,8 @@ table td {
     height: 1200px;
 }
 
-#bubble-text1, #bubble-text2 {
+#bubble-text1,
+#bubble-text2 {
     max-width: 60%;
     border: green solid 3px;
     padding: 10%;
