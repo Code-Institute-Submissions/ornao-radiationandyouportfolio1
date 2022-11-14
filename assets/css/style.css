@@ -26,8 +26,7 @@ body {
 /* headings and logo */
 h1,
 h2,
-h3,
-h4 {
+h3 {
     font-family: Roboto, sans-serif;
     font-weight: 500;
     color: black;
@@ -35,15 +34,7 @@ h4 {
 }
 
 h1 {
-    font-size: 500%;
-}
-
-h2 {
-    font-size: 250%;
-}
-
-h3 {
-    font-size: 150%;
+    font-size: 4rem;
 }
 
 #logo {
