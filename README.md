@@ -67,16 +67,19 @@ There are 15 features on this website:
 - Circle in amber-yellow was chosen in omage to well-know radiation symbol and ties in with logo: hover. 
 - The developer played with the idea of including a Begin button within the cover-text but decided a guide would give the user more versility instead. 
 
+### Guide 
 
 
 
-- Radiation types (3)
-- Radon map iframe
-- Radiation uses types (5)
-- Risks table
-- Contact form
-- FAQ section 
-- Footer
+
+
+### Radiation types (3)
+### Radon map iframe
+### Radiation uses types (5)
+### Risks table
+### Contact form
+### FAQ section 
+### Footer
 
 
 ## Testing 
