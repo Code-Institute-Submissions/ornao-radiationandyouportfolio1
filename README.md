@@ -31,6 +31,29 @@ Roboto and Montserrat were the fonts chosen for the website. I had previously lo
 
 #### Images
 
+Images of the wesbite were very important for giving an overall inviting, fun, educational feel to the wesbite which is important for both children and their parents which whom this site is aimed at. I spent many hours scrolling through Pexels, Unsplash and finally Freepik to find the type of images I wanted. Futher explanation of choice of image for a particular section is detailed below in features. 
+
+#### Content 
+
+
+
+## User Stories 
+### First time user 
+1. As a first time user, I want to easily understand the main purpose of the site.
+2. As a first time user, I want to be able to easily navigate through the site to find content.
+3. As a first time user, I don't want to be overwhelmed with information. 
+4. As a first time user after reading through the site, I want to see what types of questions other people have asked.   
+### Returning user
+5. As a returning user, I want to access the Contact us page because I've been curious about a question in relation to my/ my child's scan.
+6. As a returning user, I want to quicky access the risks associated with radiation page to reread before my child's scan. 
+7. As a returning user, I want to go back and check the radon gas levels of the houses of other people I know (I checked my house my first time using the wesbite).  
+8. 
+
+### Site owner 
+9. As the site owner, I want it be easy for users to navigate through the site without having scroll to top of page again.
+10. As the site owner, I want the users to be able to contact us so the site FAQs section can be updated reguarly helpful questions and answers.
+11. As the site owner, I want the content to be concise and easy to understand and the design to give a positive emotional response. 
+
 
 ## Features (and design choices further explained)
 
@@ -41,8 +64,9 @@ There are 15 features on this website:
 
 #### Logo
 - Logo acts as home button as linked to index.html.
-- Logo depicts radiation symbol which is very appropriate for this website.
-- Logo:hover styles the radiation symbol with yellow circle background which is a well-known design and colour associated with radiation. This added design allow uses to know this is a clickable element.
+- Logo depicts radiation symbol which is very appropriate for this website and it further confirms this is a website is about radiation in a subtle way.
+- Logo:hover styles the radiation symbol with yellow circle background which is a well-known design and colour associated with radiation. This added design allow users to know this is a clickable element.
+- User stories covered: 1,2
 
 <details open>
 <summary>Logo Screenshots</summary>
@@ -60,6 +84,7 @@ There are 15 features on this website:
 - While a bootstrap element, font awesome icon chosen by developer instead of pre-defined text. Icon chosen to steer wesbite towards more intuitive layout. This symbol was well-known to the developer through other websites they had visited previously and hence developer believe other users would know this symbol contained the navigation bar. 
 - A downside of using this boostrap element was that it could not be styled by the developer. As this was the devloper's first time using bootstrap, they were not 100% comfortable using and and adapting elelments to the page. 
 - In future, the developer would like to add add their own dropdown code and style accordingly to completely match website color scheme.
+- User stories covered: 2, 5, 7
 
 <details open>
 <summary>Nav Screenshots</summary>
@@ -72,7 +97,7 @@ There are 15 features on this website:
 </details>
 
 ### Main image and cover text
-
+- User stories covered: 1, 3, 11
 <img src="assets/docs/features/main-image--cover-text.png" alt="main image and cover text displayed">
 
 #### Main image 
@@ -89,6 +114,7 @@ There are 15 features on this website:
 ### Guide 
 - Provides nav on home page for users that may not know of hamburger.
 - Orginally designed wesbite without it but during testing realised users might feel a bit lost as the page titles are not listed on first display. 
+- User stories covered: 2,4, 5, 6, 7
 
 <img src="assets/docs/features/guide.png" alt="screenshot of gudie box on home page" width=400>
 
@@ -97,6 +123,7 @@ There are 15 features on this website:
 - Used flex box to style boxes which aided in consistency and resposiveness of website.
 - Created shadow effect behind boxes and feels this adds a nice touch to website.
 - Images again were of the cartoonish style as the website was designed with children in mind but in the developer's opinion these still appeared professional enough for parents to engage with. 
+- User stories: 3, 11
 
 <img src="assets/docs/features/radiation-types.png" alt="screenshot of types of radiation in boxes" height=500>
 
@@ -104,6 +131,7 @@ There are 15 features on this website:
 
 - Included iframe map as an element of user interaction if they were interested in checking where their house was loacted in relation to radon gas levels.
 - Iframe tended to draw focus of the page which interupted the user experience. This was a bug I resolved. 
+- User stories covered: 7
 
 <img src="assets/docs/features/iframe.png" alt="screenshot of iframe EPA map of radon gas levels in different parts of ireland " width=300>
 
@@ -112,25 +140,31 @@ There are 15 features on this website:
 - Gives the user a quick overview of the type of scan and where it is commonly used and why.
 - Includes an appropriate image related to some aspect of the scan for good visual impact for the user.
 - Font color of heading of each different section of was chosen as common color of each of the images on this display on this page. 
+- User stories: 3, 11
 
 <img src="assets/docs/features/uses-types.png" alt="screenshot of first two radiation uses types which shows design layout " height=500>
 
 ### Risks table
 
 - Gives the user information of risks in a visual quick and easy way 
+- User stories: 
 
 ### Contact form 
 
 - Gives the user the opportunity to contact us with any questions they may have
+- User stories: 5, 10
 
 ### Aside and FAQ section
 
 - Gives a quick overview of questions that have already been asked to give the user an idea of questions that may want to ask 
 - Includes links to those questions further down the page 
 - Underlined as per consistency with other clickable links on the page 
+- User stories covered: 4
 
 
 ## Testing 
+
+
 
 ## Deployment
 
