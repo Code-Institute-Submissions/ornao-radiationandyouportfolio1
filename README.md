@@ -1,7 +1,5 @@
 # Radiation & You
 
-## Introduction
-
 The purpose of this website is to give the user a brief and simple overview of the basics of radiation. As a trained healthcare professional in the radiology department, I have the knowledge and understanding of how radiation is used in hospitals; and I would like to share this information through HTML5 and CSS3 to the best of my ability. 
 
 I work full-time in a children’s hospital and hence this website will be catered towards the parents of the children, and possibly the children themselves if they so wished, attending the hospital for a scan. Hence, I aim that this website (layout, content) is designed in a way that a child could understand, but still possess credibility and instills trust in parents that the information they are reading is accurate and dependable. 
@@ -21,7 +19,15 @@ There are 5 pages on the website:
 
 #### Colour
 
+Amber-yellow and dark-turquoise were the main colors used for designing the site. Amber-yellow is a colour associated with the radiation symbol and hence I believed was appropriate to be used in this site because of that connotation. Dark-turquoise is the color of the main-image and hence for consistency of design was used across site in different ways to tie together features. These colours are bright and vivid which is visiually appealing for children. Moreover, the fact that two main colors were chosen gives a simplicity and professionalism to the wesbite that would appeal to parents. Other neutral colours were used for other elements to not overwhelm the design. 
+
 #### Font
+
+Roboto and Montserrat were the fonts chosen for the website. I had previously looked up most popular fonts for use in educational website and both these fonts were in the top 10.
+
+<img src="assets/docs/ux/fonts.png" alt="top 10 best google fonts from ilovewp" height=400>
+
+<a href="https://www.ilovewp.com/resources/education/wordpress-for-schools/most-used-google-fonts-on-school-websites/">Website link here</a>
 
 #### Images
 
