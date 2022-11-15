@@ -82,12 +82,33 @@ There are 15 features on this website:
 
 <img src="assets/docs/features/radiation-types.png" alt="screenshot of types of radiation in boxes" height=500>
 
-### Radon map iframe
+### Radon map iframe
+
+- Included iframe map as an element of user interaction if they were interested in checking where their house was loacted in relation to radon gas levels.
+- Iframe tended to draw focus of the page which interupted the user experience. This was a bug I resolved. 
+
+<img src="assets/docs/features/iframe.png" alt="screenshot of iframe EPA map of radon gas levels in different parts of ireland " width=300>
+
 ### Radiation uses types (5)
+
+- Gives the user a quick overview of the type of scan and where it is commonly used and why
+- Includes an apprporaite image related to some aspect of the scan for good visual impact for the user
+
+<img src="assets/docs/features/uses-types.png" alt="screenshot of first two radiation uses types which shows design layout " height=500>
+
 ### Risks table
-### Contact form
-### FAQ section 
-### Footer
+
+- Gives the user information of risks in a visual quick and easy way 
+
+### Contact form 
+
+- Gives the user the opportunity to contact us with any questions they may have
+
+### Aside and FAQ section
+
+- Gives a quick overview of questions that have already been asked to give the user an idea of questions that may want to ask 
+- Includes links to those questions further down the page 
+- Underlined as per consistency with other clickable links on the page 
 
 
 ## Testing 
