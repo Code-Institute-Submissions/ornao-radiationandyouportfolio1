@@ -10,10 +10,20 @@ I work full-time in a children’s hospital and hence this website will be cater
 
 There are 5 pages on the website:
 - Home (index.html)
+    - Gives user clear understanding of what site is about at a glance. 
+    - Provides multiple navigation options for easy access to content throughout the site.
 - What Is Radiation? (radiation.html)
+    - Gives user simple definitions in an easy to digest format 
+    - Gives good nav links 
 - How Do We Use Radiation in Medicine? (uses.html)
+    - Gives user simple definitions in an easy to digest format 
+    - Gives good nav links
 - Are There Any Risks Associated with X-rays? (risk.html)
+    - Provides key info in a simple and easy to understand way 
+    - Gives good nav links
 - FAQs (questions.html)
+    - Gives user option to contact site owner 
+    - Provides good nav links within page
 
 ### Design 
 
@@ -31,11 +41,13 @@ Roboto and Montserrat were the fonts chosen for the website. I had previously lo
 
 #### Images
 
-Images of the wesbite were very important for giving an overall inviting, fun, educational feel to the wesbite which is important for both children and their parents which whom this site is aimed at. I spent many hours scrolling through Pexels, Unsplash and finally Freepik to find the type of images I wanted. Futher explanation of choice of image for a particular section is detailed below in features. 
+Images of the wesbite were very important for giving an overall inviting, fun, educational feel to the wesbite which is important for both children and their parents which whom this site is aimed at. I spent many hours scrolling through Pexels, Unsplash and finally Freepik to find the type of descriptive applicable images I wanted. Futher explanation of choice of image for a particular section is detailed below in features. 
 
 #### Content 
 
+Content aimed to give a basic overview of radiation and its uses for children and their parents. Hence, simple definitions and limited text were utilised to avoid overwhelming the users. 
 
+Website content adapted with permission from poster approved by CHI Radiation Safety Committee (October 2019). Original produced by the Radiation Safety Committee, CHI at Crumlin, Version 1d (January 2017). 
 
 ## User Stories 
 ### First time user 
