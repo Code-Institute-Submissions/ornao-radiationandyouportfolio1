@@ -4,9 +4,11 @@
 
 The purpose of this website is to give the user a brief and simple overview of the basics of radiation. As a trained healthcare professional in the radiology department, I have the knowledge and understanding of how radiation is used in hospitals; and I would like to share this information through HTML5 and CSS3 to the best of my ability. 
 
-I work full-time in a children’s hospital and hence this website will be catered towards the parents of the children, and possibly the children themselves if they so wished, attending the hospital for a scan. Hence, I aim that this website (layout, content) is designed in a way that a child could understand, but still possess credibility and instills trust in their parents that the information they are reading is accurate and dependable. 
+I work full-time in a children’s hospital and hence this website will be catered towards the parents of the children, and possibly the children themselves if they so wished, attending the hospital for a scan. Hence, I aim that this website (layout, content) is designed in a way that a child could understand, but still possess credibility and instills trust in parents that the information they are reading is accurate and dependable. 
 
-## Features
+## User Experience (UX)
+
+### Structure 
 
 There are 5 pages on the website:
 - Home (index.html)
@@ -14,6 +16,17 @@ There are 5 pages on the website:
 - How Do We Use Radiation in Medicine? (uses.html)
 - Are There Any Risks Associated with X-rays? (risk.html)
 - FAQs (questions.html)
+
+### Design 
+
+#### Colour
+
+#### Font
+
+#### Images
+
+
+## Features (and design choices further explained)
 
 There are 15 features on this website: 
 ### Logo and nav bar
@@ -59,7 +72,7 @@ There are 15 features on this website:
 #### Main image 
 - Cartoon style x-ray of human body as the developed wanted the website assessible to children (as they form part of the target audience). 
 - Inclusion of a form of radiation (x-ray) and human body (x-rayed skeleton) was important to the developer for the title 'Radiation & You' to be tied in. Hence, this particular image was chosen as the main image. 
-- Orginal image was somewhat muted and bland so developer increased satruation to match bright colour scheme of rest of site. 
+- Original image was somewhat muted and bland so developer increased satruation to match bright colour scheme of rest of site. 
 
 #### Cover Text
 - Cover text consists of one h1 and one h2 element.
@@ -69,16 +82,15 @@ There are 15 features on this website:
 
 ### Guide 
 - Provides nav on home page for users that may not know of hamburger.
-- Orginally designed wesbite without it but during testing realised users might feel a bit lost as the pages are not listed on first display. 
+- Orginally designed wesbite without it but during testing realised users might feel a bit lost as the page titles are not listed on first display. 
 
 <img src="assets/docs/features/guide.png" alt="screenshot of gudie box on home page" width=400>
 
 ### Radiation types (3)
 
-- Used flex box to style boxes.
+- Used flex box to style boxes which aided in consistency and resposiveness of website.
 - Created shadow effect behind boxes and feels this adds a nice touch to website.
-- Images again were of the cartoonish style as the website was designed with children in mind but in my opinion these still appeared professional enough for parents to engage with. 
-
+- Images again were of the cartoonish style as the website was designed with children in mind but in the developer's opinion these still appeared professional enough for parents to engage with. 
 
 <img src="assets/docs/features/radiation-types.png" alt="screenshot of types of radiation in boxes" height=500>
 
@@ -91,8 +103,9 @@ There are 15 features on this website:
 
 ### Radiation uses types (5)
 
-- Gives the user a quick overview of the type of scan and where it is commonly used and why
-- Includes an apprporaite image related to some aspect of the scan for good visual impact for the user
+- Gives the user a quick overview of the type of scan and where it is commonly used and why.
+- Includes an appropriate image related to some aspect of the scan for good visual impact for the user.
+- Font color of heading of each different section of was chosen as common color of each of the images on this display on this page. 
 
 <img src="assets/docs/features/uses-types.png" alt="screenshot of first two radiation uses types which shows design layout " height=500>
 
