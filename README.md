@@ -48,7 +48,7 @@ There are 15 features on this website:
 
 <img src="assets/docs/features/nav-button-dropdown.png" alt="nav bar dropdown button">
 
-<img src="assets/docs/features/nav-dropdown.png" alt="nav bar dropdown list">
+<img src="assets/docs/features/nav-dropdown.png" alt="nav bar dropdown list" width=400>
 
 </details>
 
@@ -68,12 +68,20 @@ There are 15 features on this website:
 - The developer played with the idea of including a Begin button within the cover-text but decided a guide would give the user more versility instead. 
 
 ### Guide 
+- Provides nav on home page for users that may not know of hamburger.
+- Orginally designed wesbite without it but during testing realised users might feel a bit lost as the pages are not listed on first display. 
 
-
-
-
+<img src="assets/docs/features/guide.png" alt="screenshot of gudie box on home page" width=400>
 
 ### Radiation types (3)
+
+- Used flex box to style boxes.
+- Created shadow effect behind boxes and feels this adds a nice touch to website.
+- Images again were of the cartoonish style as the website was designed with children in mind but in my opinion these still appeared professional enough for parents to engage with. 
+
+
+<img src="assets/docs/features/radiation-types.png" alt="screenshot of types of radiation in boxes" height=500>
+
 ### Radon map iframe
 ### Radiation uses types (5)
 ### Risks table
