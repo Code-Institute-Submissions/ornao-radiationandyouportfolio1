@@ -127,8 +127,7 @@ nav {
 }
 
 #guide {
-    height: 550px;
-    width: 500px;
+    width: 40%;
     background-color: var(--off-white);
     margin: 20px auto;
 
@@ -566,6 +565,10 @@ footer p {
         height: 375px;
         width: 375px;
     }
+
+    #guide {
+        width: 60%
+    }
 }
 
 /* for medium screens 850px and below */
@@ -666,6 +669,10 @@ footer p {
     #food,
     #gas {
         width: 90%;
+    }
+
+    #guide {
+        width: 80%;
     }
 }
 
