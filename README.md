@@ -179,6 +179,16 @@ There are 15 features on this website:
 
 
 ## Testing 
+### Automated 
+- Jigsaw (CSS Code Validator)
+
+<img src="assets/docs/testing/jigsaw-validator.png" alt="screenshot of pass of css code by direct input " height=500>
+
+
+
+### Performance
+
+### Non-Automated
 
 
 
