@@ -66,6 +66,26 @@ Website content adapted with permission from poster approved by CHI Radiation Sa
 10. As the site owner, I want the users to be able to contact us so the site FAQs section can be updated reguarly helpful questions and answers.
 11. As the site owner, I want the content to be concise and easy to understand and the design to give a positive emotional response. 
 
+### Wireframes
+<details closed>
+<summary>Home</summary>
+<br>
+
+<img src="assets/docs/ux/wireframe-home-desktop.png" alt="screenshot of wireframe for home page on desktop">
+
+<img src="assets/docs/ux/wireframe-home-phone.png" alt="screenshot of wireframe for home page on phone">
+
+</details>
+
+<details closed>
+<summary>What is Radiation?</summary>
+<br>
+
+<img src="assets/docs/ux/wireframe-radiation-desktop.png" alt="screenshot of wireframe for radiation page on desktop">
+
+<img src="assets/docs/ux/wireframe-radiation-phone.png" alt="screenshot of wireframe for radiation page on phone">
+
+</details>
 
 ## Features (and design choices further explained)
 
@@ -80,15 +100,7 @@ There are 15 features on this website:
 - Logo:hover styles the radiation symbol with yellow circle background which is a well-known design and colour associated with radiation. This added design allow users to know this is a clickable element.
 - User stories covered: 1,2
 
-<details open>
-<summary>Logo Screenshots</summary>
-<br>
-
-<img src="assets/docs/features/logo.png" alt="radiation symbol as logo">
-
 <img src="assets/docs/features/logo-hover.png" alt="radiation symbol with amber yellow circle background when hovered">
-
-</details>
 
 #### Nav
 - Nav appears as dropdown to right of header.
@@ -98,15 +110,7 @@ There are 15 features on this website:
 - In future, the developer would like to add add their own dropdown code and style accordingly to completely match website color scheme.
 - User stories covered: 2, 5, 7
 
-<details open>
-<summary>Nav Screenshots</summary>
-<br>
-
-<img src="assets/docs/features/nav-button-dropdown.png" alt="nav bar dropdown button">
-
 <img src="assets/docs/features/nav-dropdown.png" alt="nav bar dropdown list" width=400>
-
-</details>
 
 ### Main image and cover text
 - User stories covered: 1, 3, 11
