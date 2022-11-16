@@ -612,7 +612,7 @@ footer p {
 /* for medium screens 850px and below */
 @media screen and (max-width: 850px) {
     table {
-        font-size: 100%;
+        font-size: 110%;
     }
 
 }
@@ -657,7 +657,7 @@ footer p {
     }
 
     table {
-        font-size: 80%;
+        font-size: 90%;
     }
 
     table tr,
@@ -721,7 +721,7 @@ footer p {
 /* for smaller screen 460px and below */
 @media screen and (max-width: 460px) {
     table {
-        font-size: 70%;
+        font-size: 75%;
     }
 
     table tr,
