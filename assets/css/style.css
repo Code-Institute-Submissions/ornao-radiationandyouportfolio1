@@ -413,10 +413,10 @@ table td {
 #form {
     background-color: var(--off-white);
     border: outset;
-    height: 500px;
+    height: 580px;
     width: 60%;
     float: left;
-    padding-bottom: 40%;
+    padding-bottom: 20%;
     margin-left: 3%;
     display: block;
 }
@@ -481,9 +481,10 @@ aside ul li a {
 
 /* faqs */
 .faqs {
-    margin-top: 45%;
+    margin-top: 50%;
     display: block;
 }
+
 .questions {
     border: var(--amber-yellow) 6px solid;
     width: 80%;
@@ -561,6 +562,14 @@ footer p {
     .uses-types div>h3 {
         padding: 10%;
     }
+
+    aside { 
+        clear: both;
+    }
+
+    .faqs {
+        clear: both;
+    }
 }
 
 /* for large to medium screens 950px and below */
@@ -592,6 +601,11 @@ footer p {
 
     #guide {
         width: 60%
+    }
+
+    .faqs, #form, aside {
+        width: 100%;
+        margin: 0;
     }
 }
 
@@ -710,6 +724,10 @@ footer p {
     table td {
         padding: 5px;
         margin: 5px;
+    }
+
+    .questions { 
+        width: 100%;
     }
 
 }
