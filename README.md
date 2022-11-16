@@ -40,6 +40,16 @@ ___
    - Contact form
    - Aside
    - FAQs
+- [Testing](#testing)
+   - [Automated](#automated) 
+       - [CSS](#css) 
+       - [HTML](#html) 
+       - [Accessibility]
+       - [Performance]
+   - Non-automated
+       - [Testing user stories]
+   - 
+
 
 
 
@@ -251,61 +261,92 @@ There are 14 features on this website:
 ## Testing 
 ### Automated 
 - Jigsaw (CSS Code Validator)
-
-<img src="assets/docs/testing/jigsaw-validator.png" alt="screenshot of pass of css code by direct input " height=500>
+    -- <details closed>
+       <summary>All CSS</summary>
+       <br>
+       <img src="assets/docs/testing/jigsaw-validator.png" alt="screenshot of pass of css code by direct input " height=500>
+       </details>
 
 -  HTML validator 
-
-    - Home 
-    <br>
-    <img src="assets/docs/testing/home-html.png" alt="screenshot of validated html code for home page" height=500>
-
-    - What is radiation?
-    <br>
-     <img src="assets/docs/testing/radiation-html.png" alt="screenshot of validated html code for radiation page" height=500>
-
-      - How do we use radiation in medicine?
-    <br>
-     <img src="assets/docs/testing/uses-html.png" alt="screenshot of validated html code for uses page" height=500>
-
-      - Are there any risks associated with radiation?
-    <br>
-     <img src="assets/docs/testing/risks-html.png" alt="screenshot of validated html code for risks page" height=500>
-
-     - Faqs
-    <br>
-     <img src="assets/docs/testing/faqs-html.png" alt="screenshot of validated html code for faqs page" height=500>
-
-
-### Acessibility 
-
-- Wave 
-
-   - Home
-   <br>
-   <img src="assets/docs/testing/wave-home.png" alt="screenshot of accessibility for home page" height=500>
-
-   - What is Radiation?
-   <br>
-   <img src="assets/docs/testing/wave-radiation.png" alt="screenshot of accessibility for radiation page" height=500>
-
-    - How do we use radiation in medicine?
-   <br>
-   <img src="assets/docs/testing/wave-uses.png" alt="screenshot of accessibility for uses page" height=500>
-
-    - Are there any risks associated with radiation?
-   <br>
-   <img src="assets/docs/testing/wave-risks.png" alt="screenshot of accessibility for risks page" height=500>
-
-    - FAQs
-   <br>
-   <img src="assets/docs/testing/wave-faqs.png" alt="screenshot of accessibility for faqs page" height=500>
-
+    - <details closed>
+       <summary>Home</summary>
+       <br>
+       <img src="assets/docs/testing/home-html.png" alt="screenshot of validated html code for home page" height=500>
+       </details>
+    - <details closed>
+       <summary>What is radiation?</summary>
+       <br>
+       <img src="assets/docs/testing/radiation-html.png" alt="screenshot of validated html code for radiation page" height=500> </details>
+    - <details closed>
+       <summary>How do we use radiation in medicine?</summary>
+       <br>
+      <img src="assets/docs/testing/uses-html.png" alt="screenshot of validated html code for uses page" height=500> </details>
+    - <details closed>
+       <summary>Are there any risks associated with radiation? </summary>
+       <br>
+       <img src="assets/docs/testing/risks-html.png" alt="screenshot of validated html code for risks page" height=500> </details>
+    - <details closed>
+       <summary>FAQs</summary>
+       <br>
+       <img src="assets/docs/testing/faqs-html.png" alt="screenshot of validated html code for faqs page" height=500> </details>
    
-
-
+### Acessibility 
+- Wave 
+    - <details closed>
+       <summary>Home</summary>
+       <br>
+       <img src="assets/docs/testing/wave-home.png" alt="screenshot of accessibility for home page" height=500>
+       </details>
+    - <details closed>
+       <summary>What is radiation?</summary>
+       <br>
+       <img src="assets/docs/testing/wave-radiation.png" alt="screenshot of accessibility for radiation page" height=500>
+       </details>
+    - <details closed>
+       <summary>How do we use radiation in medicine?</summary>
+       <br>
+       <img src="assets/docs/testing/wave-uses.png" alt="screenshot of accessibility for uses page" height=500>
+       </details>
+    - <details closed>
+       <summary>Are there any risks associated with radiation? </summary>
+       <br>
+       <img src="assets/docs/testing/wave-risks.png" alt="screenshot of accessibility for risks page" height=500>
+       </details>
+    - <details closed>
+       <summary>FAQs</summary>
+       <br>
+       <img src="assets/docs/testing/wave-faqs.png" alt="screenshot of accessibility for faqs page" height=500>
+       </details> 
 
 ### Performance
+- Lighthouse 
+     - <details closed>
+       <summary>Home</summary>
+       <br>
+       <img src="assets/docs/testing/home-desktop.png" alt="screenshot of performance score for home page on desktop">
+       </details>
+    - <details closed>
+       <summary>What is radiation?</summary>
+       <br>
+       <img src="assets/docs/ux/radiation-desktop.png" alt="sscreenshot of performance score for radiation page on desktop">
+       </details>
+    - <details closed>
+       <summary>How do we use radiation in medicine?</summary>
+       <br>
+       <img src="assets/docs/ux/uses-desktop.png" alt="screenshot of performance score for uses page on desktop">
+       </details>
+    - <details closed>
+       <summary>Are there any risks associated with radiation? </summary>
+       <br>
+       <img src="assets/docs/ux/risks-desktop.png" alt="screenshot of performance score for risks page on desktop">
+       </details>
+    - <details closed>
+       <summary>FAQs</summary>
+       <br>
+       <img src="assets/docs/ux/faqs-desktop.png" alt="screenshot of performance score for faqs page on desktop">
+       </details>
+
+
 
 ### Non-Automated
 
@@ -375,6 +416,11 @@ Testing User Stories
 | Form | Navigate to the faqs page, fill out form | Form fully filled out before sending | Works as expected |
 
 11. As the site owner, I want the content to be concise and easy to understand and the design to give a positive emotional response. 
+
+### Bugs
+
+| **Bug** | **Fix** |
+| ----------- | ----------- |
 
 ## Deployment
 
