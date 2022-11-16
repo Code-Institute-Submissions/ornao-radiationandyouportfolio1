@@ -87,6 +87,17 @@ Website content adapted with permission from poster approved by CHI Radiation Sa
 
 </details>
 
+
+<details closed>
+<summary>How do we use radiation in medicine?</summary>
+<br>
+
+<img src="assets/docs/ux/wireframe-uses-desktop.png" alt="screenshot of wireframe for uses page on desktop">
+
+<img src="assets/docs/ux/wireframe-uses-phone.png" alt="screenshot of wireframe for uses page on phone">
+
+</details>
+
 ## Features (and design choices further explained)
 
 There are 15 features on this website: 
@@ -202,6 +213,10 @@ There are 15 features on this website:
     <br>
      <img src="assets/docs/testing/risks-html.png" alt="screenshot of validated html code for risks page" height=500>
 
+     - Faqs
+    <br>
+     <img src="assets/docs/testing/faqs-html.png" alt="screenshot of validated html code for faqs page" height=500>
+
 
 ### Acessibility 
 
@@ -222,6 +237,10 @@ There are 15 features on this website:
     - Are there any risks associated with radiation?
    <br>
    <img src="assets/docs/testing/wave-risks.png" alt="screenshot of accessibility for risks page" height=500>
+
+    - FAQs
+   <br>
+   <img src="assets/docs/testing/wave-faqs.png" alt="screenshot of accessibility for faqs page" height=500>
 
    
 
