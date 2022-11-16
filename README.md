@@ -1,5 +1,7 @@
 # Radiation & You
 
+<a href="https://ornao.github.io/radiationandyouportfolio1/">Deployed Website</a>
+
 The purpose of this website is to give the user a brief and simple overview of the basics of radiation. As a trained healthcare professional in the radiology department, I have the knowledge and understanding of how radiation is used in hospitals; and I would like to share this information through HTML5 and CSS3 to the best of my ability. 
 
 I work full-time in a children’s hospital and hence this website will be catered towards children and their parents. Hence, I aim that this website (layout, content) is designed in a way that a child could understand, but still possess credibility and instills trust in parents that the information they are reading is accurate and dependable. 
@@ -41,7 +43,7 @@ Project Expectataions:
    - [Logo](#logo)
    - [Nav](#nav) 
       - [Hamburger](#hamburger)
-      - [Back to Top](#to-top)
+      - [Back to Top](#back-to-top)
       - [Next Page](#next-page)
    - [Main-image](#main-image)  
    - [Cover-text](#cover-text) 
@@ -123,9 +125,7 @@ Images of the wesbite were very important for giving an overall inviting, fun, e
 
 #### Content 
 
-Content aimed to give a basic overview of radiation and its uses for children and their parents. Hence, simple definitions and limited text were utilised to avoid overwhelming the users. 
-
-Website content adapted with permission from poster approved by CHI Radiation Safety Committee (October 2019). Original produced by the Radiation Safety Committee, CHI at Crumlin, Version 1d (January 2017). 
+Content aimed to give a basic overview of radiation and its uses for children and their parents. Hence, simple definitions and limited text were utilised to avoid overwhelming the users. Website content adapted with permission from poster approved by CHI Radiation Safety Committee (October 2019). Original produced by the Radiation Safety Committee, CHI at Crumlin, Version 1d (January 2017). 
 
 ## User Stories 
 ### First time user 
@@ -134,7 +134,7 @@ Website content adapted with permission from poster approved by CHI Radiation Sa
 3. As a first time user, I don't want to be overwhelmed with information. 
 4. As a first time user after reading through the site, I want to see what types of questions other people have asked.   
 ### Returning user
-5. As a returning user, I want to access the Contact us page because I've been curious about a question in relation to my/ my child's scan.
+5. As a returning user, I want to access the contact us form because I've been curious about a question in relation to my/ my child's scan.
 6. As a returning user, I want to quicky access the risks associated with radiation page to reread before my child's scan. 
 7. As a returning user, I want to go back and check the radon gas levels of the houses of other people I know (I checked my house my first time using the wesbite).  
 8. As a returning user, I want a brief reminder about what my scan is.
@@ -197,31 +197,43 @@ Website content adapted with permission from poster approved by CHI Radiation Sa
 <img src="assets/docs/ux/wireframe-faqs-phone.png" alt="screenshot of wireframe for faq page on phone">
 
 </details>
+<br>
 
 ## Features (and design choices further explained)
 
 There are 14 features on this website: 
+
 ### Logo and nav bar
 
 <img src="assets/docs/features/logo-nav.png" alt="logo and nav bar screenshot">
 
 #### Logo
-- Logo acts as home button as linked to index.html.
-- Logo depicts radiation symbol which is very appropriate for this website and it further confirms this is a website is about radiation in a subtle way.
+- Logo gives the user quick asses to the home page.
+- Logo depicts radiation symbol which is very appropriate for this website as it is consistent with the radiation design theme.
 - Logo:hover styles the radiation symbol with yellow circle background which is a well-known design and colour associated with radiation. This added design allow users to know this is a clickable element.
 - User stories covered: 1,2
 
 <img src="assets/docs/features/logo-hover.png" alt="radiation symbol with amber yellow circle background when hovered">
 
 #### Nav
-- Nav appears as dropdown to right of header.
+## Hamburger
+- A recognisable menu symbol for the user to know of.
 - Nav chosen to be displayed as dropdown to ease responsiveness and consistency of each page header at different screen sizes. 
-- While a bootstrap element, font awesome icon chosen by developer instead of pre-defined text. Icon chosen to steer wesbite towards more intuitive layout. This symbol was well-known to the developer through other websites they had visited previously and hence developer believe other users would know this symbol contained the navigation bar. 
-- A downside of using this boostrap element was that it could not be styled by the developer. As this was the devloper's first time using bootstrap, they were not 100% comfortable using and and adapting elelments to the page. 
-- In future, the developer would like to add add their own dropdown code and style accordingly to completely match website color scheme.
 - User stories covered: 2, 5, 7
 
 <img src="assets/docs/features/nav-dropdown.png" alt="nav bar dropdown list" width=400>
+
+## Back to top 
+- A nav element included for ease of navigation throughtout the site for the user 
+- User stories covered: 9
+
+<img src="assets/docs/features/top-page.png" alt="nav bar dropdown list">
+
+## Next page 
+- A nav element included for ease of navigation throughtout the site for the user 
+- User stories covered: 2, 9
+
+<img src="assets/docs/features/next-page.png" alt="nav bar dropdown list" >
 
 ### Main image and cover text
 - User stories covered: 1, 3, 11
@@ -231,12 +243,11 @@ There are 14 features on this website:
 - Cartoon style x-ray of human body as the developed wanted the website assessible to children (as they form part of the target audience). 
 - Inclusion of a form of radiation (x-ray) and human body (x-rayed skeleton) was important to the developer for the title 'Radiation & You' to be tied in. Hence, this particular image was chosen as the main image. 
 - Original image was somewhat muted and bland so developer increased satruation to match bright colour scheme of rest of site. 
+- Hence, the user is clear about what the site is about at first glance and brief look. 
 
 #### Cover Text
-- Cover text consists of one h1 and one h2 element.
 - h1 element states the title of the site and h2 elemnt gives a brief description of the site to further explain and tie in main image and title. The inclusion of all these elements leaves the user in no doubt to what the site is about. 
-- Circle in amber-yellow was chosen in omage to well-know radiation symbol and ties in with logo: hover. 
-- The developer played with the idea of including a Begin button within the cover-text but decided a guide would give the user more versility instead. 
+- Circle in amber-yellow was chosen in omage to well-know radiation symbol and ties in with logo: hover for design consistency. 
 
 ### Guide 
 - Provides nav on home page for users that may not know of hamburger.
@@ -288,6 +299,27 @@ There are 14 features on this website:
 - Underlined as per consistency with other clickable links on the page 
 - User stories covered: 4
 
+### Future Features
+- Dropdown menu 
+    - While a bootstrap element, font awesome icon chosen by developer instead of pre-defined text. Icon chosen to steer wesbite towards more intuitive layout. This symbol was well-known to the developer through other websites they had visited previously and hence developer believe other users would know this symbol contained the navigation bar. 
+    - A downside of using this boostrap element was that it could not be styled by the developer. As this was the devloper's first time using bootstrap, they were not 100% comfortable using and and adapting elelments to the page. 
+    - In future, the developer would like to add add their own dropdown code and style accordingly to completely match 
+    website color scheme.
+- Begin button in main image
+   - A further navigation element that could triiger the dropdown menu so users do not need to scroll down for guide 
+   - This button could help someone if they were not familar with a hamburger dropdown menu also
+
+
+## Technology Used 
+
+- Bootstrap v5.0
+- Git
+- GitHub
+- Gitpod
+- iloveimg - photos resizing website
+- Balsamiq
+- Google Fonts
+- Font Awsome
 
 ## Testing 
 ### Automated 
@@ -457,4 +489,20 @@ Testing User Stories
 
 ## Credits 
 
-### [Frameworks, Libraries & Programs Used](#flp)
+### Layout
+
+- Font inspiration resource <a href="https://www.ilovewp.com/resources/education/wordpress-for-schools/most-used-google-fonts-on-school-websites/">Website link here</a>
+
+### Media
+
+- Freepik photos
+
+### Content
+
+- © Website content adapted with permission from poster approved by CHI Radiation Safety Committee (October 2019). Original produced by the Radiation Safety Committee, CHI at Crumlin, Version 1d (January 2017).
+         
+### Code
+
+- w3schools.com 
+
+
