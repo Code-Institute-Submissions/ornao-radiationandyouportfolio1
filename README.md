@@ -250,7 +250,72 @@ There are 15 features on this website:
 
 ### Non-Automated
 
+Testing User Stories
 
+1. As a first time user, I want to easily understand the main purpose of the site.
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Main image and cover text | Should only need to glance at | Main image and cover text should inform users this is a 
+| website about understanding radiation in a simple way | Works as expected |
+| Logo | Should only need to glance at | Recognise the symbol and further tells the user this is a wesbite based around radiation | Works as expected |
+
+2. As a first time user, I want to be able to easily navigate through the site to find content.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Hamburger | Click on symbol in top right hand corner | Dropdown should open displaying pages names clearly | Works as expected |
+| Logo | Click or hover on symbol in left hand corner | Bring user back to home page | Works as expected |
+| Guide | Scroll down from main image and choose to click a link | Transports user to desired page | Works as expected |
+| Back to top | Once reached bottom of page, click  | Bring user to top of page| Works as expected |
+| Next page | Once reached bottom of page, click | Brings user onto next page | Works as expected |
+
+
+3. As a first time user, I don't want to be overwhelmed with information. 
+
+4. As a first time user after reading through the site, I want to see what types of questions other people have asked.   
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Guide | Click on fourth link | Brings user to faqs page | Works as expected |
+
+### Returning user
+5. As a returning user, I want to access the Contact us page because I've been curious about a question in relation to my/ my child's scan.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Guide | Click on fourth link | Brings user to faqs page where contact form is | Works as expected |
+| Hamburger | Click on symbol in top right hand corner and click faqs page | Brings user to faqs page where contact form is | Works as expected |
+
+6. As a returning user, I want to quicky access the risks associated with radiation page to reread before my child's scan.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Guide | Click on third link | Brings user to faqs page where contact form is | Works as expected |
+| Hamburger | Click on symbol in top right hand corner and click risks page | Brings user to risks page where table is | Works as expected |
+
+7. As a returning user, I want to go back and check the radon gas levels of the houses of other people I know (I checked my house my first time using the wesbite).  
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Map | Navigate to ration page and scroll down to where map is, type in address | Map should give user the info they are looking for | Works as expected |
+
+8. 
+
+### Site owner 
+9. As the site owner, I want it be easy for users to navigate through the site without having scroll to top of page again.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Back to top | Once reached bottom of page, click  | Bring user to top of page| Works as expected |
+| Next page | Once reached bottom of page, click | Brings user onto next page | Works as expected |
+
+10. As the site owner, I want the users to be able to contact us so the site FAQs section can be updated reguarly helpful questions and answers.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Form | Navigate to the faqs page, fill out form | Form fully filled out before sending | Works as expected |
+
+11. As the site owner, I want the content to be concise and easy to understand and the design to give a positive emotional response. 
 
 ## Deployment
 
