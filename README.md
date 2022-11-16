@@ -198,7 +198,7 @@ There are 15 features on this website:
 
    - Home
    <br>
-   <img src="assets/docs/testing/home-html.png" alt="screenshot of accessibility for home page" height=500>
+   <img src="assets/docs/testing/wave-home.png" alt="screenshot of accessibility for home page" height=500>
 
 
 ### Performance
