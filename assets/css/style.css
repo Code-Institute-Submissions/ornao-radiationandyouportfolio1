@@ -6,6 +6,7 @@
     --light-grey: rgb(136, 136, 136);
     --muted-black: rgb(48, 48, 48);
     --off-white: rgb(245, 245, 245);
+    --blue-purple: rgb(82, 91, 255); 
 }
 
 * {
@@ -230,7 +231,7 @@ iframe {
 
 /* uses types */
 .uses-types h2 {
-    color: #7392ef;
+    color: var(--blue-purple);
 }
 
 /* x-ray section */
