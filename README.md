@@ -187,10 +187,18 @@ There are 15 features on this website:
 -  HTML validator 
 
     - Home 
+    <br>
     <img src="assets/docs/testing/home-html.png" alt="screenshot of validated html code for home page" height=500>
 
     - What is radiation?
 
+### Acessibility 
+
+- Wave 
+
+   - Home
+   <br>
+   <img src="assets/docs/testing/home-html.png" alt="screenshot of accessibility for home page" height=500>
 
 
 ### Performance
