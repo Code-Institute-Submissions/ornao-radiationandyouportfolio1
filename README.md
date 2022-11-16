@@ -198,6 +198,10 @@ There are 15 features on this website:
     <br>
      <img src="assets/docs/testing/uses-html.png" alt="screenshot of validated html code for uses page" height=500>
 
+      - Are there any risks associated with radiation?
+    <br>
+     <img src="assets/docs/testing/risks-html.png" alt="screenshot of validated html code for risks page" height=500>
+
 
 ### Acessibility 
 
@@ -214,6 +218,10 @@ There are 15 features on this website:
     - How do we use radiation in medicine?
    <br>
    <img src="assets/docs/testing/wave-uses.png" alt="screenshot of accessibility for uses page" height=500>
+
+    - Are there any risks associated with radiation?
+   <br>
+   <img src="assets/docs/testing/wave-risks.png" alt="screenshot of accessibility for risks page" height=500>
 
    
 
