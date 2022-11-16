@@ -4,6 +4,65 @@ The purpose of this website is to give the user a brief and simple overview of t
 
 I work full-time in a children’s hospital and hence this website will be catered towards the parents of the children, and possibly the children themselves if they so wished, attending the hospital for a scan. Hence, I aim that this website (layout, content) is designed in a way that a child could understand, but still possess credibility and instills trust in parents that the information they are reading is accurate and dependable. 
 
+## Table of Contents
+___
+
+- [User Experience (UX)](#ux)
+    - [Structure] (#structure)
+    - [Design](#design)
+        - [Colour](#color)
+        - [Font](#font)
+        - [Images](#images)
+        - [Content](#content)
+    - [User Stories](#user-stories)
+        - [First Time User](#first)
+        - [Returning User](#return)
+        - [Site Owner](#owner)
+     - [Wireframes](#wireframes)
+        - [Home](#home)
+        - [What is radiation?](#radiation)
+        - [How do we uses radiation in medicine?](#uses)
+        - [Are there an risks assocatied with radiation?](#risks)
+        - [Faqs](#faqs)
+- [Features](#features)
+   - Logo
+   - Nav 
+      - hamburger
+      - back to top
+      - next page
+   - Main image 
+   - Cover text 
+   - Guide 
+   - Radiation types 
+   - Radon map iframe
+   - Uses types
+   - Risk table
+   - Contact form
+   - Aside
+   - FAQs
+
+
+
+
+
+- [Technologies](#technologies)
+    - [Languages Used](#languages)
+    - [Frameworks, Libraries & Programs Used](#flp)
+- [Testing](#testing)
+    - [Lighthouse](#lighthouse)
+    - [HTML Validation](#html-validation)
+    - [CSS Validation](#css-validation)
+    - [Further Testing](#further-testing)
+    - [Fixed issues found during testing](#fixed-issues)
+- [Deployment](#deployment)
+    
+- [Credits](#credits)
+    - [Layout](#layout)
+    - [Media](#media)
+    - [Content](#content)
+    - [Code](#code)
+- [Acknowledgements](#acknowledgements)
+
 ## User Experience (UX)
 
 ### Structure 
@@ -59,7 +118,7 @@ Website content adapted with permission from poster approved by CHI Radiation Sa
 5. As a returning user, I want to access the Contact us page because I've been curious about a question in relation to my/ my child's scan.
 6. As a returning user, I want to quicky access the risks associated with radiation page to reread before my child's scan. 
 7. As a returning user, I want to go back and check the radon gas levels of the houses of other people I know (I checked my house my first time using the wesbite).  
-8. 
+8. As a returning user, I want a brief reminder about what my scan is.
 
 ### Site owner 
 9. As the site owner, I want it be easy for users to navigate through the site without having scroll to top of page again.
@@ -100,7 +159,7 @@ Website content adapted with permission from poster approved by CHI Radiation Sa
 
 ## Features (and design choices further explained)
 
-There are 15 features on this website: 
+There are 14 features on this website: 
 ### Logo and nav bar
 
 <img src="assets/docs/features/logo-nav.png" alt="logo and nav bar screenshot">
@@ -299,7 +358,7 @@ Testing User Stories
 |-------------|------------|---------------------|-------------------|
 | Map | Navigate to ration page and scroll down to where map is, type in address | Map should give user the info they are looking for | Works as expected |
 
-8. 
+8. As a returning user, I want a brief reminder about what my scan is.
 
 ### Site owner 
 9. As the site owner, I want it be easy for users to navigate through the site without having scroll to top of page again.
