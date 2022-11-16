@@ -8,7 +8,7 @@ I work full-time in a children’s hospital and hence this website will be cater
 ___
 
 - [User Experience (UX)](#ux)
-    - [Structure] (#structure)
+    - [Structure](#structure)
     - [Design](#design)
         - [Colour](#color)
         - [Font](#font)
@@ -25,53 +25,43 @@ ___
         - [Are there an risks assocatied with radiation?](#risks)
         - [Faqs](#faqs)
 - [Features](#features)
-   - Logo
-   - Nav 
-      - hamburger
-      - back to top
-      - next page
-   - Main image 
-   - Cover text 
-   - Guide 
-   - Radiation types 
-   - Radon map iframe
-   - Uses types
-   - Risk table
-   - Contact form
-   - Aside
-   - FAQs
+   - [Logo](#logo)
+   - [Nav](#nav) 
+      - [Hamburger](#hamburger)
+      - [Back to Top](#to-top)
+      - [Next Page](#next-page)
+   - [Main-image](#main-image)  
+   - [Cover-text](#cover-text) 
+   - [Guide](#guide) 
+   - [Radiation-types](#radiation-types)
+   - [Radon-map-iframe](#radon-map-iframe)
+   - [Uses-types](#uses-types)
+   - [Risk-table](#risk-table)
+   - [Contact-form](#contact-form)
+   - [Aside](#aside)
+   - [FAQs](#faqs)
 - [Testing](#testing)
    - [Automated](#automated) 
-       - [CSS](#css) 
-       - [HTML](#html) 
-       - [Accessibility]
-       - [Performance]
-   - Non-automated
-       - [Testing user stories]
-   - 
-
-
-
-
-
-
-- [Technologies](#technologies)
-    - [Languages Used](#languages)
-    - [Frameworks, Libraries & Programs Used](#flp)
-- [Testing](#testing)
-    - [Lighthouse](#lighthouse)
-    - [HTML Validation](#html-validation)
-    - [CSS Validation](#css-validation)
-    - [Further Testing](#further-testing)
-    - [Fixed issues found during testing](#fixed-issues)
+       - [CSS validator](#jigsaw) 
+       - [HTML validator](#html-val) 
+       - [Accessibility](#accessibility)
+       - [Performance](#performance)
+   - [Non-Automated](#non-automated)
+       - [Testing User Stories]
+   -[Bugs](#bugs)
 - [Deployment](#deployment)
-    
 - [Credits](#credits)
     - [Layout](#layout)
     - [Media](#media)
     - [Content](#content)
     - [Code](#code)
 - [Acknowledgements](#acknowledgements)
+
+
+- [Technologies](#technologies)
+    - [Languages Used](#languages)
+    - [Frameworks, Libraries & Programs Used](#flp)
+
 
 ## User Experience (UX)
 
