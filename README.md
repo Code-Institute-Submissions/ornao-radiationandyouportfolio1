@@ -2,7 +2,7 @@
 
 The purpose of this website is to give the user a brief and simple overview of the basics of radiation. As a trained healthcare professional in the radiology department, I have the knowledge and understanding of how radiation is used in hospitals; and I would like to share this information through HTML5 and CSS3 to the best of my ability. 
 
-I work full-time in a children’s hospital and hence this website will be catered towards the parents of the children, and possibly the children themselves if they so wished, attending the hospital for a scan. Hence, I aim that this website (layout, content) is designed in a way that a child could understand, but still possess credibility and instills trust in parents that the information they are reading is accurate and dependable. 
+I work full-time in a children’s hospital and hence this website will be catered towards children and their parents. Hence, I aim that this website (layout, content) is designed in a way that a child could understand, but still possess credibility and instills trust in parents that the information they are reading is accurate and dependable. 
 
 Project Goals:
 - Create a resource that explains radiation and its use in hospital in a very simple and visually appealing format 
@@ -11,7 +11,7 @@ Project Goals:
 
 Target audience:
 - Parents of children attending the hospital for a scan 
-- The children having the scan if they so wished
+- The children having the scan 
 - Anyone interested in a brief understanding of radiation and its use in hospitals
 
 Project Demands: 
@@ -24,25 +24,19 @@ Project Expectataions:
 - A MVP within the time-frame and skill-level of developer which meets the goals and demands listed above 
 
 ## Table of Contents
-___
 
-- [User Experience (UX)](#ux)
+- [User Experience(UX)](#ux)
     - [Structure](#structure)
     - [Design](#design)
-        - [Colour](#color)
+        - [Colour](#colour)
         - [Font](#font)
         - [Images](#images)
         - [Content](#content)
     - [User Stories](#user-stories)
-        - [First Time User](#first)
-        - [Returning User](#return)
-        - [Site Owner](#owner)
+        - [First Time User](#first-time-user)
+        - [Returning User](#returning-user)
+        - [Site Owner](#site-owner)
      - [Wireframes](#wireframes)
-        - [Home](#home)
-        - [What is radiation?](#radiation)
-        - [How do we uses radiation in medicine?](#uses)
-        - [Are there an risks assocatied with radiation?](#risks)
-        - [Faqs](#faqs)
 - [Features](#features)
    - [Logo](#logo)
    - [Nav](#nav) 
@@ -66,20 +60,25 @@ ___
        - [Accessibility](#accessibility)
        - [Performance](#performance)
    - [Non-Automated](#non-automated)
-       - [Testing User Stories]
-   -[Bugs](#bugs)
+       - [Testing User Stories](#testing-user-stories)
+       - [Bugs](#bugs)
 - [Deployment](#deployment)
 - [Credits](#credits)
     - [Layout](#layout)
     - [Media](#media)
     - [Content](#content)
+         - [Frameworks, Libraries & Programs Used](#flp)
     - [Code](#code)
 - [Acknowledgements](#acknowledgements)
 
 
-- [Technologies](#technologies)
-    - [Languages Used](#languages)
-    - [Frameworks, Libraries & Programs Used](#flp)
+    -
+
+    - [Home](#home)
+        - [What is radiation?](#radiation)
+        - [How do we uses radiation in medicine?](#uses)
+        - [Are there an risks assocatied with radiation?](#risks)
+        - [Faqs](#faqs)
 
 
 ## User Experience (UX)
@@ -102,12 +101,13 @@ There are 5 pages on the website:
 - FAQs (questions.html)
     - Gives user option to contact site owner 
     - Provides good nav links within page
+    - Outlines detailed answers to possible questions
 
 ### Design 
 
 #### Colour
 
-Amber-yellow and dark-turquoise were the main colors used for designing the site. Amber-yellow is a colour associated with the radiation symbol and hence I believed was appropriate to be used in this site because of that connotation. Dark-turquoise is the color of the main-image and hence for consistency of design was used across site in different ways to tie together features. These colours are bright and vivid which is visiually appealing for children. Moreover, the fact that two main colors were chosen gives a simplicity and professionalism to the wesbite that would appeal to parents. Other neutral colours were used for other elements to not overwhelm the design. 
+Amber-yellow and dark-turquoise were the main colors used for designing the site. Amber-yellow is a colour associated with the radiation symbol and hence I believed was appropriate to be used in this site because of that connotation. Dark-turquoise is the color of the main-image and hence for consistency of design was used across site in different ways to tie together features. These colours are bright and vivid which is visiually appealing for children. Moreover, the fact that two main colors were chosen gives a simplicity and professionalism to the wesbite that would appeal to parents. Other neutral colours were used for other elements to not overwhelm the design. The dark-turquoise colour was made darker to allow for better contrast-ratio to mitigate acessibility concerns. 
 
 #### Font
 
@@ -173,6 +173,28 @@ Website content adapted with permission from poster approved by CHI Radiation Sa
 <img src="assets/docs/ux/wireframe-uses-desktop.png" alt="screenshot of wireframe for uses page on desktop">
 
 <img src="assets/docs/ux/wireframe-uses-phone.png" alt="screenshot of wireframe for uses page on phone">
+
+</details>
+
+
+<details closed>
+<summary>Are there any risks associated with radiation?</summary>
+<br>
+
+<img src="assets/docs/ux/wireframe-risks-desktop.png" alt="screenshot of wireframe for risks page on desktop">
+
+<img src="assets/docs/ux/wireframe-risks-phone.png" alt="screenshot of wireframe for risks page on phone">
+
+</details>
+
+
+<details closed>
+<summary>FAQS</summary>
+<br>
+
+<img src="assets/docs/ux/wireframe-faqs-desktop.png" alt="screenshot of wireframe for faq page on desktop">
+
+<img src="assets/docs/ux/wireframe-faqs-phone.png" alt="screenshot of wireframe for faq page on phone">
 
 </details>
 
@@ -434,3 +456,5 @@ Testing User Stories
 ## Deployment
 
 ## Credits 
+
+### [Frameworks, Libraries & Programs Used](#flp)
