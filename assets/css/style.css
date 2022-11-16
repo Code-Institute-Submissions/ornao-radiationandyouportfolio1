@@ -652,6 +652,10 @@ footer p {
         margin: 0 8% 0 8%;
     }
 
+    h1 {
+        padding: 5%;
+    }
+
     table {
         font-size: 80%;
     }
