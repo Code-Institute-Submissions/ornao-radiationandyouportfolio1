@@ -4,6 +4,25 @@ The purpose of this website is to give the user a brief and simple overview of t
 
 I work full-time in a children’s hospital and hence this website will be catered towards the parents of the children, and possibly the children themselves if they so wished, attending the hospital for a scan. Hence, I aim that this website (layout, content) is designed in a way that a child could understand, but still possess credibility and instills trust in parents that the information they are reading is accurate and dependable. 
 
+Project Goals:
+- Create a resource that explains radiation and its use in hospital in a very simple and visually appealing format 
+- This website should include colorful images and simple definitions, should not overwhelm the user with information 
+- Important information such as radiation dose risk information should be able to be navigated to directly from the home page
+
+Target audience:
+- Parents of children attending the hospital for a scan 
+- The children having the scan if they so wished
+- Anyone interested in a brief understanding of radiation and its use in hospitals
+
+Project Demands: 
+- Factual, digestible content
+- Detailed explantions when necessary for example in FAQ section
+- Clear layout and design
+- Multiple navigation elements 
+
+Project Expectataions:
+- A MVP within the time-frame and skill-level of developer which meets the goals and demands listed above 
+
 ## Table of Contents
 ___
 
