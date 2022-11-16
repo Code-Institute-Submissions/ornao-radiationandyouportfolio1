@@ -184,6 +184,13 @@ There are 15 features on this website:
 
 <img src="assets/docs/testing/jigsaw-validator.png" alt="screenshot of pass of css code by direct input " height=500>
 
+-  HTML validator 
+
+    - Home 
+    <img src="assets/docs/testing/home-html.png" alt="screenshot of validated html code for home page" height=500>
+
+    - What is radiation?
+
 
 
 ### Performance
