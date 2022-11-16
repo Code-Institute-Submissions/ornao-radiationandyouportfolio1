@@ -191,6 +191,9 @@ There are 15 features on this website:
     <img src="assets/docs/testing/home-html.png" alt="screenshot of validated html code for home page" height=500>
 
     - What is radiation?
+    <br>
+     <img src="assets/docs/testing/radiation-html.png" alt="screenshot of validated html code for radiation page" height=500>
+
 
 ### Acessibility 
 
@@ -199,6 +202,11 @@ There are 15 features on this website:
    - Home
    <br>
    <img src="assets/docs/testing/wave-home.png" alt="screenshot of accessibility for home page" height=500>
+
+   - What is Radiation?
+   <br>
+   <img src="assets/docs/testing/wave-radiation.png" alt="screenshot of accessibility for radiation page" height=500>
+
 
 
 ### Performance
