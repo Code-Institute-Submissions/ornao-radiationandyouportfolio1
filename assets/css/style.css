@@ -100,7 +100,7 @@ nav {
 }
 
 /* main image and cover text*/
-#flexbox-container {
+#flexbox-container-img {
     display: flex;
     justify-content: center;
     align-items: center;
