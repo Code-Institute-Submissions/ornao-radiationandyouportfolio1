@@ -3,7 +3,7 @@
 :root {
     --amber-yellow: rgb(255, 191, 0);
     --dark-turquoise: rgb(0, 206, 209);
-    --light-grey: rgb(136,136,136);
+    --light-grey: rgb(136, 136, 136);
     --muted-black: rgb(48, 48, 48);
     --off-white: rgb(245, 245, 245);
 }
@@ -90,7 +90,8 @@ nav {
     line-height: 75px;
 }
 
-#page-bottom-nav, #next-page-nav {
+#page-bottom-nav,
+#next-page-nav {
     color: black;
     text-decoration: none;
     border-bottom: solid 4px var(--dark-turquoise);
@@ -133,7 +134,8 @@ nav {
 
 }
 
-#guide h2, #guide p {
+#guide h2,
+#guide p {
     padding: 10px;
 }
 
@@ -317,11 +319,20 @@ table {
     border: black 2px solid;
 }
 
+th {
+    background-color: var(--amber-yellow);
+    padding: 8px;
+  }
+
 table tr,
 table td {
     padding: 15px;
     margin: 15px;
     border: black 2px solid;
+}
+
+tr:nth-child(odd) {
+    background-color: var(--off-white)
 }
 
 /* questions page */
@@ -567,7 +578,7 @@ footer p {
         padding: 10%;
     }
 
-    aside { 
+    aside {
         clear: both;
     }
 
@@ -603,7 +614,9 @@ footer p {
         width: 375px;
     }
 
-    .faqs, #form, aside {
+    .faqs,
+    #form,
+    aside {
         width: 100%;
         margin: 0 0 10% 0;
     }
@@ -648,7 +661,8 @@ footer p {
         width: 350px;
     }
 
-    #cover-text h1, #cover-text h2 {
+    #cover-text h1,
+    #cover-text h2 {
         margin: 0 8% 0 8%;
     }
 
@@ -677,7 +691,8 @@ footer p {
         width: 300px;
     }
 
-    #cover-text h1, #cover-text h2 {
+    #cover-text h1,
+    #cover-text h2 {
         margin: 0 12% 0 12%;
     }
 
@@ -716,6 +731,10 @@ footer p {
     #guide {
         width: 80%;
     }
+
+    th {
+        padding: 4px;
+      }
 }
 
 /* for smaller screen 460px and below */
@@ -730,7 +749,7 @@ footer p {
         margin: 5px;
     }
 
-    .questions { 
+    .questions {
         width: 100%;
     }
 
@@ -761,4 +780,7 @@ footer p {
         font-size: 120%;
     }
 
+    th {
+        padding: 0.5px;
+      }
 }
