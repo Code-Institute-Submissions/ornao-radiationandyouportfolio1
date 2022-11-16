@@ -325,7 +325,11 @@ table td {
 }
 
 /* questions page */
-.bubbles {
+.questions {
+    border: var(--amber-yellow) 6px solid;
+}
+
+/* .bubbles {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -364,7 +368,7 @@ table td {
 
 #bubble-text2 {
     transform: scaleX(-1);
-}
+} */
 
 /* #bubble1 {
     height: 600px;
@@ -413,6 +417,7 @@ table td {
     width: 60%;
     float: left;
     padding-bottom: 40%;
+    margin-left: 3%;
     display: block;
 }
 
@@ -463,8 +468,27 @@ aside {
 aside ul li {
     list-style: none;
     padding: 1%;
-    background-color: rgb(245, 245, 245);
-    margin: 1%;
+    background-color: var(--off-white);
+    margin: 1% 7% 3% 1%;
+}
+
+aside ul li a {
+    text-decoration: none;
+    border-bottom: var(--amber-yellow) solid 2px;
+    color: black;
+
+}
+
+/* faqs */
+.faqs {
+    margin-top: 45%;
+    display: block;
+}
+.questions {
+    border: var(--amber-yellow) 6px solid;
+    width: 80%;
+    margin: 10% auto;
+    padding: 5%;
 }
 
 /* footer */
