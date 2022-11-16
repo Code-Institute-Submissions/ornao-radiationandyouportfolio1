@@ -2,7 +2,7 @@
 
 :root {
     --amber-yellow: rgb(255, 191, 0);
-    --dark-turquoise: rgb(0, 206, 209);
+    --dark-turquoise: rgb(50, 158, 177);
     --light-grey: rgb(136, 136, 136);
     --muted-black: rgb(48, 48, 48);
     --off-white: rgb(245, 245, 245);
@@ -41,6 +41,7 @@ h1 {
     color: white;
     padding: 1%;
     margin-top: 0.5%;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 #logo {
