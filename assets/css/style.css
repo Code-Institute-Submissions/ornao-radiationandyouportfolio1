@@ -422,6 +422,12 @@ aside ul li a {
     padding: 5%;
 }
 
+.questions a {
+    text-decoration: none;
+    border-bottom: var(--dark-turquoise) solid 2px;
+    color: black;
+}
+
 /* footer */
 footer {
     height: fit-content;

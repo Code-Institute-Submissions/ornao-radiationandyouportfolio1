@@ -320,7 +320,6 @@ There are 14 features on this website:
    - A further navigation element that could triiger the dropdown menu so users do not need to scroll down for guide 
    - This button could help someone if they were not familar with a hamburger dropdown menu also
 
-
 ## Technology Used 
 
 - Bootstrap v5.0
@@ -400,30 +399,36 @@ There are 14 features on this website:
        <br>
        For desktop and phone
        <img src="assets/docs/testing/home-desktop.png" alt="screenshot of performance score for home page on desktop">
+
+       <img src="assets/docs/testing/home-phone.png" alt="screenshot of performance score for faqs page on phone">
        </details>
     - <details closed>
        <summary>What is radiation?</summary>
        <br>
        For desktop and phone
        <img src="assets/docs/testing/radiation-desktop.png" alt="screenshot of performance score for radiation page on desktop">
+       <img src="assets/docs/testing/radiation-phone.png" alt="screenshot of performance score for radiation page on phone">
        </details>
     - <details closed>
        <summary>How do we use radiation in medicine?</summary>
        <br>
        For desktop and phone
        <img src="assets/docs/testing/uses-desktop.png" alt="screenshot of performance score for uses page on desktop">
+       <img src="assets/docs/testing/uses-phone.png" alt="screenshot of performance score for uses page on phone">
        </details>
     - <details closed>
        <summary>Are there any risks associated with radiation? </summary>
        <br>
        For desktop and phone
        <img src="assets/docs/testing/risks-desktop.png" alt="screenshot of performance score for risks page on desktop">
+       <img src="assets/docs/testing/risks-phone.png" alt="screenshot of performance score for risks page on phone">
        </details>
     - <details closed>
        <summary>FAQs</summary>
        <br>
        For desktop and phone
        <img src="assets/docs/testing/faqs-desktop.png" alt="screenshot of performance score for faqs page on desktop">
+       <img src="assets/docs/testing/faqs-phone.png" alt="screenshot of performance score for faqs page on phone">
        </details>
 
 
@@ -433,10 +438,10 @@ There are 14 features on this website:
 Testing User Stories
 
 1. As a first time user, I want to easily understand the main purpose of the site.
+
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Main image and cover text | Should only need to glance at | Main image and cover text should inform users this is a 
-| website about understanding radiation in a simple way | Works as expected |
+| Main image and cover text | Should only need to glance at | Main image and cover text should show clear purpose | Works as expected |
 | Logo | Should only need to glance at | Recognise the symbol and further tells the user this is a wesbite based around radiation | Works as expected |
 
 2. As a first time user, I want to be able to easily navigate through the site to find content.
