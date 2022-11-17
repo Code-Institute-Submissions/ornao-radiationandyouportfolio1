@@ -17,13 +17,14 @@
     <header>
         <div class="header">
             <a href="../index.html" aria-label="radiation symbol logo that acts as home button when clicked">
-                <h1 id="logo" title="logo"><i class="fa-solid fa-radiation"></i></h1>
+                <span id="logo" title="logo"><i class="fa-solid fa-radiation"></i></span>
             </a>
             <nav>
                 <!-- bootstrap dropdown nav -->
                 <div class="dropdown">
                     <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
-                        data-bs-toggle="dropdown" aria-expanded="false" aria-label="dropdown menu that toggles page names list to open when clicked">
+                        data-bs-toggle="dropdown" aria-expanded="false"
+                        aria-label="dropdown menu that toggles page names list to open when clicked">
                         <i class="fa-solid fa-bars"></i> </button>
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                         <li><a class="dropdown-item" href="../index.html">Home</a></li>
@@ -37,60 +38,61 @@
             </nav>
         </div>
     </header>
-    <h1 id="main-heading-radiation">What is Radiation?</h1>
     <section class="radiation">
+        <h1 id="main-heading-radiation">What is Radiation?</h1>
+        <br>
         <p>Radiation is <span>energy</span> that is all around us every minute of every day.</p>
         <br>
-        <br>
+    </section>
+    <section>
         <h3>We are exposed to radiation in <strong>3</strong> main ways:</h3>
-    </section>
-    <section class="radiation-types">
-        <div id="sun">
-            <h3>Sun <i class="fa-solid fa-sun"></i></h3>
-            <img src="../assets/images/sunresized.jpg" alt="picture of sun in sky with clouds underneath">
-            <p>The sun exposes us to cosmic radiation.</p>
+        <div class="radiation-types">
+            <div id="sun">
+                <h3>Sun <i class="fa-solid fa-sun"></i></h3>
+                <img src="../assets/images/sunresized.jpg" alt="picture of sun in sky with clouds underneath">
+                <p>The sun exposes us to cosmic radiation.</p>
 
-            <p>Flying in a plane increases our exposure to radiation from the sun as we have less protection
-                from the earths atmosphere.</p>
+                <p>Flying in a plane increases our exposure to radiation from the sun as we have less protection
+                    from the earths atmosphere.</p>
 
-            <p>radiation exposure on a return flight from Dublin to New York is the same as the exposure from
-                having two or three chest x-rays.
-            </p>
+                <p>radiation exposure on a return flight from Dublin to New York is the same as the exposure from
+                    having two or three chest x-rays.
+                </p>
+            </div>
+            <div id="food">
+                <h3>Food <i class="fa-solid fa-utensils"></i></h3>
+                <img src="../assets/images/foodresized.jpg" alt="woman holding shopping basket in grocery ailse">
+                <p>Radiation, in the form of radioactivity, is found in many foods.</p>
+                <p>For example, bananas contain small amounts of a radioactive substance called Potassium-40.</p>
+                <p>This means that you are very slightly radioactive at all times!</p>
+                <br>
+            </div>
+            <div id="gas">
+                <h3>Radon Gas <i class="fa-solid fa-hill-rockslide"></i></h3>
+                <img src="../assets/images/geologyresized.jpg" alt="pictures of rocks clumped together on ground">
+                <p>Radon gas orginates from the rocks and soil beneath our feet. </p>
+                <p>In Ireland, most of our radiation exposure comes from breathing Radon gas.</p>
+                <p>Depending on where you live, your exposure to Radon gas can go up or down.</p>
+            </div>
         </div>
-        <div id="food">
-            <h3>Food <i class="fa-solid fa-utensils"></i></h3>
-            <img src="../assets/images/foodresized.jpg" alt="woman holding shopping basket in grocery ailse">
-            <p>Radiation, in the form of radioactivity, is found in many foods.</p>
-            <p>For example, bananas contain small amounts of a radioactive substance called Potassium-40.</p>
-            <p>This means that you are very slightly radioactive at all times!</p>
+        <br>
+        <div class="background-radiation">
+            <p>These forms of radiation (<i class="fa-solid fa-sun"></i> <i class="fa-solid fa-utensils"></i> <i
+                    class="fa-solid fa-hill-rockslide"></i>) are collectively termed "Background Radiation"</p>
             <br>
-        </div>
-        <div id="gas">
-            <h3>Radon Gas <i class="fa-solid fa-hill-rockslide"></i></h3>
-            <img src="../assets/images/geologyresized.jpg" alt="pictures of rocks clumped together on ground">
-            <p>Radon gas orginates from the rocks and soil beneath our feet. </p>
-            <p>In Ireland, most of our radiation exposure comes from breathing Radon gas.</p>
-            <p>Depending on where you live, your exposure to Radon gas can go up or down.</p>
+            <p>
+                On average, people living in Ireland are exposed to 4mSv of background radiation per year
+            </p>
+            <br>
+            <p>(mSv is shorthand for millSievert which is how we measure radiation exposure)</p>
         </div>
     </section>
-    <section class="background-radiation">
-        <p>These forms of radiation (<i class="fa-solid fa-sun"></i> <i class="fa-solid fa-utensils"></i> <i
-                class="fa-solid fa-hill-rockslide"></i>) are collectively termed "Background Radiation"</p>
-        <br>
-        <p>
-            On average, people living in Ireland are exposed to 4mSv of background radiation per year
-        </p>
-        <br>
-        <p>(mSv is shorthand for millSievert which is how we measure radiation exposure)</p>
-    </section>
-
-    <h2>Check to see if your home is located in a low or high radon gas
-        area!</h2>
-    <br>
     <section class="map">
+        <h2>Check to see if your home is located in a low or high radon gas
+            area!</h2>
         <iframe src="https://gis.epa.ie/EPAMaps/Radon?&lid=EPA:RadonRiskMapofIreland"
             title="radon concentration map of ireland"></iframe>
-            <br>
+        <br>
     </section>
     <a id="page-bottom-nav" href="#logo">Back to Top of Page <i class="fa-solid fa-arrow-up"></i> </a>
     <a id="next-page-nav" href="uses.html">Next Page <i class="fa-solid fa-arrow-right"></i> </a>

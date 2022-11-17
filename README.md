@@ -55,10 +55,12 @@ Project Expectataions:
    - [Contact-form](#contact-form)
    - [Aside](#aside)
    - [FAQs](#faqs)
+   - [Future Features](#future-features)
+- [Technology Used](#technology-used)   
 - [Testing](#testing)
    - [Automated](#automated) 
-       - [CSS validator](#jigsaw) 
-       - [HTML validator](#html-val) 
+       - [Jigsaw](#jigsaw) 
+       - [HTML validator](#html-validator) 
        - [Accessibility](#accessibility)
        - [Performance](#performance)
    - [Non-Automated](#non-automated)
@@ -250,9 +252,8 @@ There are 14 features on this website:
 - Circle in amber-yellow was chosen in omage to well-know radiation symbol and ties in with logo: hover for design consistency. 
 
 ### Guide 
-- Provides nav on home page for users that may not know of hamburger.
-- Orginally designed wesbite without it but during testing realised users might feel a bit lost as the page titles are not listed on first display. 
-- User stories covered: 2,4, 5, 6, 7
+- Provides nav on home page for users that may not know of hamburger. 
+- User stories covered: 2, 4, 5, 6, 7, 8
 
 <img src="assets/docs/features/guide.png" alt="screenshot of gudie box on home page" width=400>
 
@@ -267,8 +268,7 @@ There are 14 features on this website:
 
 ### Radon map iframe
 
-- Included iframe map as an element of user interaction if they were interested in checking where their house was loacted in relation to radon gas levels.
-- Iframe tended to draw focus of the page which interupted the user experience. This was a bug I resolved. 
+- Included iframe map as an element of user interaction if they were interested in checking where their house was located in relation to radon gas levels. 
 - User stories covered: 7
 
 <img src="assets/docs/features/iframe.png" alt="screenshot of iframe EPA map of radon gas levels in different parts of ireland " width=300>
@@ -277,27 +277,38 @@ There are 14 features on this website:
 
 - Gives the user a quick overview of the type of scan and where it is commonly used and why.
 - Includes an appropriate image related to some aspect of the scan for good visual impact for the user.
-- Font color of heading of each different section of was chosen as common color of each of the images on this display on this page. 
-- User stories: 3, 11
+- Font color of heading of each different section of was chosen as common color of each of the images on this display on this page for appealing display.
+- User stories: 3, 8, 11
 
 <img src="assets/docs/features/uses-types.png" alt="screenshot of first two radiation uses types which shows design layout " height=500>
 
-### Risks table
+### Risks table
 
 - Gives the user information of risks in a visual quick and easy way 
-- User stories: 
+- User stories: 3, 6, 11
 
-### Contact form 
+<img src="assets/docs/features/risks-table.png" alt="screenshot of table of risk percentages" width=300>
+
+###  Contact form 
 
 - Gives the user the opportunity to contact us with any questions they may have
 - User stories: 5, 10
 
-### Aside and FAQ section
+<img src="assets/docs/features/contact-form.png" alt="screenshot of contact us form" width=300>
 
+### Aside 
 - Gives a quick overview of questions that have already been asked to give the user an idea of questions that may want to ask 
 - Includes links to those questions further down the page 
 - Underlined as per consistency with other clickable links on the page 
 - User stories covered: 4
+
+<img src="assets/docs/features/aside.png" alt="screenshot of aside feature" width=300>
+
+### FAQs
+- May answer users questions or give them inspiration to ask their own
+- User stories covered: 4
+
+<img src="assets/docs/features/faqs.png" alt="screenshot of snipet of faqs" width=300>
 
 ### Future Features
 - Dropdown menu 
@@ -323,14 +334,15 @@ There are 14 features on this website:
 
 ## Testing 
 ### Automated 
-- Jigsaw (CSS Code Validator)
-    -- <details closed>
+- #### Jigsaw 
+- (CSS Code Validator)
+    <details closed>
        <summary>All CSS</summary>
        <br>
        <img src="assets/docs/testing/jigsaw-validator.png" alt="screenshot of pass of css code by direct input " height=500>
        </details>
 
--  HTML validator 
+-  #### HTML validator 
     - <details closed>
        <summary>Home</summary>
        <br>
@@ -353,8 +365,8 @@ There are 14 features on this website:
        <br>
        <img src="assets/docs/testing/faqs-html.png" alt="screenshot of validated html code for faqs page" height=500> </details>
    
-### Acessibility 
-- Wave 
+- #### Accessibility 
+  - Wave 
     - <details closed>
        <summary>Home</summary>
        <br>
@@ -441,7 +453,6 @@ Testing User Stories
 |-------------|------------|---------------------|-------------------|
 | Guide | Click on fourth link | Brings user to faqs page | Works as expected |
 
-### Returning user
 5. As a returning user, I want to access the Contact us page because I've been curious about a question in relation to my/ my child's scan.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
@@ -464,7 +475,6 @@ Testing User Stories
 
 8. As a returning user, I want a brief reminder about what my scan is.
 
-### Site owner 
 9. As the site owner, I want it be easy for users to navigate through the site without having scroll to top of page again.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
@@ -484,6 +494,10 @@ Testing User Stories
 
 | **Bug** | **Fix** |
 | ----------- | ----------- |
+
+#### Unresolved Bug
+- Iframe draws focus of the page which interupts the user experience. This was a bug that could easily be resolved with Java. I intend to fix this once I learn that language. 
+- Background 
 
 ## Deployment
 
