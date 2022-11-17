@@ -398,26 +398,31 @@ There are 14 features on this website:
      - <details closed>
        <summary>Home</summary>
        <br>
+       For desktop and phone
        <img src="assets/docs/testing/home-desktop.png" alt="screenshot of performance score for home page on desktop">
        </details>
     - <details closed>
        <summary>What is radiation?</summary>
        <br>
+       For desktop and phone
        <img src="assets/docs/testing/radiation-desktop.png" alt="screenshot of performance score for radiation page on desktop">
        </details>
     - <details closed>
        <summary>How do we use radiation in medicine?</summary>
        <br>
+       For desktop and phone
        <img src="assets/docs/testing/uses-desktop.png" alt="screenshot of performance score for uses page on desktop">
        </details>
     - <details closed>
        <summary>Are there any risks associated with radiation? </summary>
        <br>
+       For desktop and phone
        <img src="assets/docs/testing/risks-desktop.png" alt="screenshot of performance score for risks page on desktop">
        </details>
     - <details closed>
        <summary>FAQs</summary>
        <br>
+       For desktop and phone
        <img src="assets/docs/testing/faqs-desktop.png" alt="screenshot of performance score for faqs page on desktop">
        </details>
 
