@@ -504,8 +504,8 @@ Testing User Stories
 
 | **Bug** | **Fix** |
 | ----------- | ----------- |
-|x-ray image was pushed to one side on smaller screens in uses. html| used dev tools to help find and remove margin-left: 10% that was causing issue |
-
+|x-ray image was pushed to one side on smaller screens in uses. html| used dev tools to help find and remove margin-left: 10% that was causing the issue |
+|h1 element had large gap between header and itself compared to other pages| used dev tools to help find and remove padding-top: 40px that was causing the issue
 
 #### Unresolved Bug
 - Iframe draws focus of the page which interupts the user experience. This was a bug that could easily be resolved with Java. I intend to fix this once I learn that language. 

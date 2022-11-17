@@ -580,6 +580,11 @@ footer p {
         margin: 10px;
     }
 
+    #cover-text h1,
+    #cover-text h2 {
+        margin: 0 14% 0 14%;
+        padding: 0;
+    }
 }
 
 /* for smaller screens 500px and below */
@@ -591,9 +596,6 @@ footer p {
         width: 300px;
     }
 
-    #cover-text h1,
-    #cover-text h2 {
-        margin: 0 12% 0 12%;
     }
 
     h1 {
