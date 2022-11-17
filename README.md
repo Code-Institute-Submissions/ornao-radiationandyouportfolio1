@@ -505,13 +505,20 @@ Testing User Stories
 | **Bug** | **Fix** |
 | ----------- | ----------- |
 |x-ray image was pushed to one side on smaller screens in uses. html| used dev tools to help find and remove margin-left: 10% that was causing the issue |
-|h1 element had large gap between header and itself compared to other pages| used dev tools to help find and remove padding-top: 40px that was causing the issue
+|h1 element had large gap between header and itself compared to other pages| used dev tools to help find and remove padding-top: 40px that was causing the issue|
+|h1 elemnt background appearing out of circle on smaller screen level on home page | changed padding to get rid of this ruining of circle |
 
 #### Unresolved Bug
 - Iframe draws focus of the page which interupts the user experience. This was a bug that could easily be resolved with Java. I intend to fix this once I learn that language. 
 - Background 
 
 ## Deployment
+- Used github paged to deploy site
+- Went to settings tab of respository I intended to submit which is last header on right top of page section
+- Then went to pages tab by scrolling and looking towrds left hand side of screen 
+- Pressed deploy from branch and save
+- Waited for link to appear 
+
 
 ## Credits 
 
@@ -521,7 +528,8 @@ Testing User Stories
 
 ### Media
 
-- Freepik photos
+- Freepik photos (@pch.vector and @vectorjuice)
+- iframe is from Enviromental Protection Agency (EPA) 
 
 ### Content
 
@@ -529,6 +537,15 @@ Testing User Stories
          
 ### Code
 
-- w3schools.com 
+- I relied heavily on w3schools to help me understand how to style and format website, particulary their CSS posts. For example their stripe table code. 
+        <a href="https://www.w3schools.com/css/css_table_style.asp"></a>
+- Stackoverflow posts:
+        <a href="https://stackoverflow.com/questions/8366957/how-to-center-an-iframe-horizontally"></a>
+        <a href="https://stackoverflow.com/questions/4919076/outline-effect-to-text"></a>
+
+- Learn flexbox video helped be able to code using flexbox
+         <a href="https://youtu.be/fYq5PXgSsbE/ "></a>
+- Bootstrapv5 for dropdown menu 
+         <a href="https://getbootstrap.com/docs/5.0/components/dropdowns/ "></a>
 
 
