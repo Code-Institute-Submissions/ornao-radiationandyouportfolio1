@@ -356,7 +356,7 @@ h2 {
     padding-top: 16px;
 }
 
-input[type=text],
+input[type=text], input[type=email],
 textarea {
     width: 80%;
     padding: 12px;
