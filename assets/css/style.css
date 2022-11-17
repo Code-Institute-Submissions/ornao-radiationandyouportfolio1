@@ -6,7 +6,7 @@
     --light-grey: rgb(136, 136, 136);
     --muted-black: rgb(48, 48, 48);
     --off-white: rgb(245, 245, 245);
-    --blue-purple: rgb(82, 91, 255); 
+    --blue-purple: rgb(82, 91, 255);
 }
 
 * {
@@ -355,7 +355,8 @@ h2 {
     padding-top: 16px;
 }
 
-input[type=text], input[type=email],
+input[type=text],
+input[type=email],
 textarea {
     width: 80%;
     padding: 12px;
@@ -452,7 +453,7 @@ footer p {
     }
 
     #guide {
-        width: 70%
+        width: 80%
     }
 
     .x-ray,
@@ -590,12 +591,9 @@ footer p {
 /* for smaller screens 500px and below */
 @media screen and (max-width: 500px) {
 
-
     #cover-text {
         height: 300px;
         width: 300px;
-    }
-
     }
 
     h1 {
@@ -628,6 +626,7 @@ footer p {
     th {
         padding: 4px;
     }
+
 }
 
 /* for smaller screen 460px and below */

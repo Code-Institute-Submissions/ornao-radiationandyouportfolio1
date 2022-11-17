@@ -407,7 +407,7 @@ There are 14 features on this website:
        <br>
        For desktop and phone
        <img src="assets/docs/testing/radiation-desktop.png" alt="screenshot of performance score for radiation page on desktop">
-       <img src="assets/docs/testing/radiation-phone.png" alt="screenshot of performance score for radiation page on phone">
+      Did not include performance of this page on phone. 60ish performance score as images were bigger than necessary at smaller screen sizes. Need to figure out how to add media query to html as img was used instead of background value. 
        </details>
     - <details closed>
        <summary>How do we use radiation in medicine?</summary>
@@ -430,8 +430,6 @@ There are 14 features on this website:
        <img src="assets/docs/testing/faqs-desktop.png" alt="screenshot of performance score for faqs page on desktop">
        <img src="assets/docs/testing/faqs-phone.png" alt="screenshot of performance score for faqs page on phone">
        </details>
-
-
 
 ### Non-Automated
 
@@ -484,6 +482,10 @@ Testing User Stories
 | Map | Navigate to ration page and scroll down to where map is, type in address | Map should give user the info they are looking for | Works as expected |
 
 8. As a returning user, I want a brief reminder about what my scan is.
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Navigate to uses page | scroll  down until topics appear| read information| Works as expected |
+
 
 9. As the site owner, I want it be easy for users to navigate through the site without having scroll to top of page again.
 
@@ -510,7 +512,7 @@ Testing User Stories
 
 #### Unresolved Bug
 - Iframe draws focus of the page which interupts the user experience. This was a bug that could easily be resolved with Java. I intend to fix this once I learn that language. 
-- Background 
+- Logo:hover makes main image jump when clicked, should increase margin between image and header. 
 
 ## Deployment
 - Used github paged to deploy site
@@ -519,10 +521,9 @@ Testing User Stories
 - Pressed deploy from branch and save
 - Waited for link to appear 
 
-
 ## Credits 
 
-### Layout
+### Layout
 
 - Font inspiration resource <a href="https://www.ilovewp.com/resources/education/wordpress-for-schools/most-used-google-fonts-on-school-websites/">Website link here</a>
 
@@ -547,5 +548,9 @@ Testing User Stories
          <a href="https://youtu.be/fYq5PXgSsbE/ "></a>
 - Bootstrapv5 for dropdown menu 
          <a href="https://getbootstrap.com/docs/5.0/components/dropdowns/ "></a>
+
+## Acknowledgements 
+
+I'd like to thank my mentor Okwudiri for his enthusiasm, support and vaulable feedback 
 
 
